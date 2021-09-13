@@ -369,3 +369,78 @@ students' last names:
 
 SELECT first_name, last_name
 FROM student WHERE INSTR(first_name, '.') > 0 ORDER BY LENGTH(last_name);
+
+--NESTED FUNCTIONS
+SELECT RPAD (UPPER(CITY) , 20 , '.')
+FROM ZIPCODE WHERE  STATE= 'CT';
+
+
+---RESULT: John T.,T.,John
+SELECT  FIRST_NAME , SUBSTR(FIRST_NAME , INSTR(FIRST_NAME, '.')-1) mi,
+       SUBSTR(FIRST_NAME ,1, INSTR(FIRST_NAME , '.')-2) FIRST
+FROM STUDENT WHERE  INSTR(FIRST_NAME , '.')>=3;
+
+
+-- concatenation
+SELECT   CONCAT( CITY , STATE) FROM  ZIPCODE
+ORDER BY  STATE;
+
+--The result set is difficult to read without spaces between cities and states. The CONCAT function
+--takes only two parameters. By using the || operator, you can easily concatenate several strings:
+
+SELECT   CITY || STATE  || ZIP  FROM  ZIPCODE;
+
+SELECT  CITY || ', ' || STATE || ' '  || ZIP  FROM ZIPCODE;
+
+
+--- REPLACE FUNCTION PAG 175;
+SELECT REPLACE('My had is asleep' , 'had' , 'foot') from DUAL;
+
+-- THE TRANSLATE FUNCTION
+/*
+Unlike REPLACE, which replaces an entire string, the TRANSLATE function provides a one-for-one
+character substitution. For instance, it allows you to determine if all the phone numbers in the
+STUDENT table follow the same format. In the next query, TRANSLATE substitutes the '#' character
+for every character from '0' to '9'. Then the values are checked against the '###-###-####'
+format.
+*/
+SELECT  PHONE FROM STUDENT WHERE TRANSLATE(PHONE , '0123456789' , '##########') <>
+                                 '###-###-####';
+
+--THE SOUNDEX FUNCTION
+/*
+The SOUNDEX function allows you compare differently spelled words that phonetically sound alike.
+The next query uses the SOUNDEX function to display students where the last name sounds like
+Martin.
+*/
+SELECT  STUDENT_ID , LAST_NAME FROM STUDENT
+WHERE SOUNDEX(LAST_NAME) = SOUNDEX('MARTIN');
+
+-- 3.1 Exercises
+--Execute the following SQL statement. Based on the result, what is the purpose of the
+--INITCAP function?
+
+SELECT  DESCRIPTION "Description", INITCAP(DESCRIPTION) "Initcap Description"
+FROM COURSE WHERE  DESCRIPTION LIKE  '%SQL%';
+
+--Write the question answered by the following SQL statement.
+SELECT  LAST_NAME FROM INSTRUCTOR WHERE  LENGTH(LAST_NAME)>=6;
+
+--c) Describe the result of the following SQL statement. Pay particular attention to the
+--negative number parameter.
+SELECT  SUBSTR('12345' , 3), SUBSTR('123345', 3 , 2),
+       SUBSTR('12345', -4 ,3) FROM DUAL;
+
+--D) Based on the result of the following SQL statement, describe the purpose of the LTRIM
+--and RTRIM functions.
+SELECT  ZIP , LTRIM(ZIP , 'O') , RTRIM(ZIP , '4') FROM ZIPCODE
+ORDER BY  ZIP;
+
+
+--What do you observe when you execute the next statement? How would you change
+--the statement to achieve the desired result?
+--ERROR
+SELECT  TRIM('01' FROM  '01230145601') FROM  DUAL;
+
+SELECT  TRANSLATE('555-1212' , '0123456789' , '##########')
+FROM  DUAL;
