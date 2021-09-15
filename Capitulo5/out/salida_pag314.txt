@@ -1,0 +1,66 @@
+SQL> rem (Rischert,A(2004). Chapter 5. Aggregate Functions, GROUP BY, and HAVING
+SQL> rem IN Oracle SQL by Example(223-325),USA: Prentice Hall
+SQL> 
+SQL> col location format A10;
+SQL> 
+SQL> SELECT location, instructor_id,
+  2   COUNT(*), SUM(capacity) AS sum,
+  3   MIN(capacity) AS min, MAX(capacity) AS max
+  4   FROM section
+  5   GROUP BY location, instructor_id;
+
+LOCATION   INSTRUCTOR_ID   COUNT(*)        SUM  MIN  MAX                        
+---------- ------------- ---------- ---------- ---- ----                        
+L210                 105          2         40   15   25                        
+L509                 106          5        115   15   25                        
+L507                 103          2         50   25   25                        
+M311                 108          1         25   25   25                        
+L214                 105          1         15   15   15                        
+L210                 106          1         25   25   25                        
+L507                 104          1         25   25   25                        
+L210                 108          3         55   15   25                        
+L507                 105          3         65   15   25                        
+M200                 107          1         15   15   15                        
+L214                 107          1         25   25   25                        
+
+LOCATION   INSTRUCTOR_ID   COUNT(*)        SUM  MIN  MAX                        
+---------- ------------- ---------- ---------- ---- ----                        
+L214                 102          4         70   15   25                        
+L211                 101          1         15   15   15                        
+L500                 103          1         15   15   15                        
+L509                 107          3         65   15   25                        
+M311                 107          1         25   25   25                        
+L509                 104          3         75   25   25                        
+L210                 104          1         25   25   25                        
+L500                 107          1         12   12   12                        
+M500                 102          1         25   25   25                        
+L210                 103          2         40   15   25                        
+L214                 104          4         70   15   25                        
+
+LOCATION   INSTRUCTOR_ID   COUNT(*)        SUM  MIN  MAX                        
+---------- ------------- ---------- ---------- ---- ----                        
+L509                 105          3         75   25   25                        
+L507                 101          3         75   25   25                        
+L509                 103          3         75   25   25                        
+L507                 102          3         65   15   25                        
+L509                 108          2         50   25   25                        
+H310                 103          1         15   15   15                        
+L206                 108          1         15   15   15                        
+M311                 105          1         25   25   25                        
+L211                 106          1         15   15   15                        
+L507                 107          3         75   25   25                        
+L214                 108          2         40   15   25                        
+
+LOCATION   INSTRUCTOR_ID   COUNT(*)        SUM  MIN  MAX                        
+---------- ------------- ---------- ---------- ---- ----                        
+L511                 104          1         25   25   25                        
+L214                 106          3         55   15   25                        
+L210                 101          1         15   15   15                        
+L211                 103          1         25   25   25                        
+L509                 101          4         85   10   25                        
+L509                 102          2         30   15   15                        
+
+39 rows selected.
+
+SQL> 
+SQL> spool off
