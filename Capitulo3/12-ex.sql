@@ -1,0 +1,3 @@
+-- concatenation
+SELECT   CONCAT( CITY , STATE) FROM  ZIPCODE
+ORDER BY  STATE;
