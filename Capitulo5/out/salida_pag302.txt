@@ -1,0 +1,13 @@
+SQL> rem (Rischert,A(2004). Chapter 5. Aggregate Functions, GROUP BY, and HAVING
+SQL> rem IN Oracle SQL by Example(223-325),USA: Prentice Hall
+SQL> 
+SQL> -- Cuenta el n£mero tuplas que hay en la tabla enrollment
+SQL> SELECT COUNT(*)
+  2   FROM enrollment;
+
+  COUNT(*)                                                                      
+----------                                                                      
+       226                                                                      
+
+SQL> 
+SQL> spool off

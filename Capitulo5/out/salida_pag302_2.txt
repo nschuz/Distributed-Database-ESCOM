@@ -1,0 +1,16 @@
+SQL> rem (Rischert,A(2004). Chapter 5. Aggregate Functions, GROUP BY, and HAVING
+SQL> rem IN Oracle SQL by Example(223-325),USA: Prentice Hall
+SQL> 
+SQL> SELECT COUNT(final_grade), COUNT(section_id), COUNT(*)  --Count excluye las columnas que sean NULL
+  2   FROM enrollment;
+
+COUNT(FINAL_GRADE) COUNT(SECTION_ID)                                            
+------------------ -----------------                                            
+COUNT(*)--COUNTEXCLUYELASCOLUMNASQUESEANNULL                                    
+--------------------------------------------                                    
+                 1               226                                            
+                                         226                                    
+                                                                                
+
+SQL> 
+SQL>  spool off;

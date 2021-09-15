@@ -1,0 +1,34 @@
+SQL> rem (Rischert,A(2004). Chapter 5. Aggregate Functions, GROUP BY, and HAVING
+SQL> rem IN Oracle SQL by Example(223-325),USA: Prentice Hall
+SQL> 
+SQL> col location format A5;
+SQL> col min format 999;
+SQL> col MAX format 999;
+SQL> 
+SQL> SELECT location, COUNT(*), SUM(capacity) AS sum,
+  2   MIN(capacity) AS min, MAX(capacity) AS max
+  3   FROM section
+  4   GROUP BY location;
+
+LOCAT   COUNT(*)        SUM  MIN  MAX                                           
+----- ---------- ---------- ---- ----                                           
+H310           1         15   15   15                                           
+L214          15        275   15   25                                           
+L210          10        200   15   25                                           
+M500           1         25   25   25                                           
+M311           3         75   25   25                                           
+L507          15        355   15   25                                           
+L206           1         15   15   15                                           
+L500           2         27   12   15                                           
+L511           1         25   25   25                                           
+M200           1         15   15   15                                           
+L509          25        570   10   25                                           
+
+LOCAT   COUNT(*)        SUM  MIN  MAX                                           
+----- ---------- ---------- ---- ----                                           
+L211           3         55   15   25                                           
+
+12 rows selected.
+
+SQL> 
+SQL> spool off

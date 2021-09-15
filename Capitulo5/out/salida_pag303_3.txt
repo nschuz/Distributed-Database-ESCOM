@@ -1,0 +1,14 @@
+SQL> rem (Rischert,A(2004). Chapter 5. Aggregate Functions, GROUP BY, and HAVING
+SQL> rem IN Oracle SQL by Example(223-325),USA: Prentice Hall
+SQL> 
+SQL> -- La funci¢n AVG devuelve la media de un grupo de filas.
+SQL> SELECT AVG(capacity), AVG(NVL(capacity,0))
+  2   FROM section;
+
+AVG(CAPACITY) AVG(NVL(CAPACITY,0))                                              
+------------- --------------------                                              
+   21.1794872           21.1794872                                              
+
+SQL> 
+SQL> 
+SQL> spool off
