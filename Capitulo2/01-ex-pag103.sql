@@ -1,0 +1,4 @@
+
+REM EJERCICIO PAG 103
+SELECT description
+FROM course;

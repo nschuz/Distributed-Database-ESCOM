@@ -444,3 +444,39 @@ SELECT  TRIM('01' FROM  '01230145601') FROM  DUAL;
 
 SELECT  TRANSLATE('555-1212' , '0123456789' , '##########')
 FROM  DUAL;
+
+
+SELECT LTRIM('01230145601', '01') left,
+RTRIM('01230145601', '01') right,
+RTRIM(LTRIM('01230145601', '01'), '01') both,
+REPLACE('01230145601', '01') replace
+FROM dual;
+
+SELECT TRANSLATE('555-1212', '0123456789',
+'##########')
+FROM dual;
+
+
+--USING TRANSLATE FOR PATTERN SEARCH PAG 180
+SELECT student_id, employer
+FROM student
+WHERE TRANSLATE(employer, '_', '+') LIKE '%B+B%';
+
+--The Escape Character and the LIKE Operator
+/*
+ Yet another way to determine any such employers in the STUDENT table is with the escape
+character functionality in conjunction with the LIKE operator. In the next example, the backslash (\)
+sign is selected as the escape character to indicate that the underscore character following the
+character is to be interpreted as a literal underscore and not as the wildcard underscore.
+
+ */
+SELECT  STUDENT_ID , EMPLOYER FROM STUDENT WHERE EMPLOYER
+LIKE '%B\_B%' ESCAPE  '\';
+
+SELECT (
+LENGTH('Fred fed Ted bread, and Ted fed Fred bread.') -
+LENGTH(REPLACE(
+'Fred fed Ted bread, and Ted fed Fred bread.',
+'ed', NULL))
+) /2 AS occurr
+FROM dual;

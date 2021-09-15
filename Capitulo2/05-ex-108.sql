@@ -1,0 +1,4 @@
+REM EJERCICIO PAG 108
+SELECT FIRST_NAME , LAST_NAME from student;
+SELECT  city , state , zip  FROM ZIPCODE;
+SELECT * FROM grade_type;

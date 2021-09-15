@@ -1,0 +1,7 @@
+sql> LIST
+sql> 1
+sql> CHANGE/course_no/description
+
+REM EJERCICIO PAG 119
+SELECT * FROM COURSE;
+SELECT  state FROM ZIPCODE;

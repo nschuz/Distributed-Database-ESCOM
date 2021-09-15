@@ -1,0 +1,4 @@
+
+REM EJERCICIO PAG 106
+SELECT DISTINCT zip
+FROM instructor;
