@@ -1,0 +1,26 @@
+SQL> rem ROSENZWEIG,B &  RAKHIMOV,E (2009).Oracle PL/SQL by example / Benjamin Rosenzweig, Elena Silvestrova Rakhimov
+SQL> 
+SQL> REM PAGINA 56
+SQL> SET SERVEROUTPUT ON;
+SQL> DECLARE
+  2  v_var1 VARCHAR2(20);
+  3  v_var2 VARCHAR2(6);
+  4  v_var3 NUMBER(5,3);
+  5  BEGIN
+  6  v_var1 := 'string literal';
+  7  v_var2 := '12.345';
+  8  v_var3 := 12.345;
+  9  DBMS_OUTPUT.PUT_LINE('v_var1: '||v_var1);
+ 10  DBMS_OUTPUT.PUT_LINE('v_var2: '||v_var2);
+ 11  DBMS_OUTPUT.PUT_LINE('v_var3: '||v_var3);
+ 12  END;
+ 13  .
+SQL> /
+v_var1: string literal                                                          
+v_var2: 12.345                                                                  
+v_var3: 12.345                                                                  
+
+PL/SQL procedure successfully completed.
+
+SQL> 
+SQL> spool off

@@ -1,0 +1,21 @@
+SQL> rem ROSENZWEIG,B &  RAKHIMOV,E (2009).Oracle PL/SQL by example / Benjamin Rosenzweig, Elena Silvestrova Rakhimov
+SQL> 
+SQL> 
+SQL> REM EJERCICIO DE LA PAGINA 54
+SQL> SET SERVEROUTPUT ON
+SQL> 
+SQL> DECLARE
+  2  v_name VARCHAR2(30);
+  3  v_dob DATE;
+  4  v_us_citizen BOOLEAN;
+  5  BEGIN
+  6  DBMS_OUTPUT.PUT_LINE(v_name||'born on'||v_dob); --No imprime las variables por que estan vacias
+  7  END;
+  8  .
+SQL> /
+born on                                                                         
+
+PL/SQL procedure successfully completed.
+
+SQL> 
+SQL> spool off

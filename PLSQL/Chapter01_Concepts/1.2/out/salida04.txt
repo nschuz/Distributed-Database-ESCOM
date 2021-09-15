@@ -1,0 +1,17 @@
+SQL> rem ROSENZWEIG,B &  RAKHIMOV,E (2009).Oracle PL/SQL by example / Benjamin Rosenzweig, Elena Silvestrova Rakhimov
+SQL> 
+SQL> REM EJERCICIO DE LA PAGINA 46
+SQL> SET SERVEROUTPUT ON
+SQL> DECLARE
+  2  v_day VARCHAR2(20);
+  3  BEGIN
+  4  v_day := TO_CHAR(SYSDATE, 'Day');
+  5  DBMS_OUTPUT.PUT_LINE ('Today is '||v_day);
+  6  END;
+  7  .
+SQL> /
+Today is Martes                                                                 
+
+PL/SQL procedure successfully completed.
+
+SQL> spool off

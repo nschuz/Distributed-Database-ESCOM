@@ -1,0 +1,33 @@
+SQL> rem ROSENZWEIG,B &  RAKHIMOV,E (2009).Oracle PL/SQL by example / Benjamin Rosenzweig, Elena Silvestrova Rakhimov
+SQL> 
+SQL> REM EJERCICIO DE LA PAGINA 61
+SQL> 
+SQL> SET SERVEROUTPUT ON
+SQL> DECLARE
+  2  v_cookies_amt NUMBER := 2;
+  3  v_calories_per_cookie CONSTANT NUMBER := 300;
+  4  BEGIN
+  5  DBMS_OUTPUT.PUT_LINE('I ate ' || v_cookies_amt ||
+  6  ' cookies with ' || v_cookies_amt *
+  7  v_calories_per_cookie || ' calories.');
+  8  v_cookies_amt := 3;
+  9  DBMS_OUTPUT.PUT_LINE('I really ate ' ||
+ 10  v_cookies_amt
+ 11  || ' cookies with ' || v_cookies_amt *
+ 12  v_calories_per_cookie || ' calories.');
+ 13  v_cookies_amt := v_cookies_amt + 5;
+ 14  DBMS_OUTPUT.PUT_LINE('The truth is, I actually ate '
+ 15  || v_cookies_amt || ' cookies with ' ||
+ 16  v_cookies_amt * v_calories_per_cookie
+ 17  || ' calories.');
+ 18  END;
+ 19  .
+SQL> /
+I ate 2 cookies with 600 calories.                                              
+I really ate 3 cookies with 900 calories.                                       
+The truth is, I actually ate 8 cookies with 2400 calories.                      
+
+PL/SQL procedure successfully completed.
+
+SQL> 
+SQL> spool off

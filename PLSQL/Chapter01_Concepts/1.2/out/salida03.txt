@@ -1,0 +1,21 @@
+SQL> rem ROSENZWEIG,B &  RAKHIMOV,E (2009).Oracle PL/SQL by example / Benjamin Rosenzweig, Elena Silvestrova Rakhimov
+SQL> 
+SQL> SET SERVEROUTPUT ON;
+SQL> 
+SQL> DECLARE
+  2  v_num NUMBER := &sv_num;
+  3  v_result NUMBER;
+  4  BEGIN
+  5  v_result := POWER(v_num, 2);
+  6  DBMS_OUTPUT.PUT_LINE('The value of v_result is: '||v_result);
+  7  END;
+  8  .
+SQL> /
+Enter value for sv_num: 10
+old   2: v_num NUMBER := &sv_num;
+new   2: v_num NUMBER := 10;
+The value of v_result is: 100                                                   
+
+PL/SQL procedure successfully completed.
+
+SQL> spool off

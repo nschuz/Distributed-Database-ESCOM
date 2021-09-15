@@ -1,0 +1,22 @@
+SQL> rem ROSENZWEIG,B &  RAKHIMOV,E (2009).Oracle PL/SQL by example / Benjamin Rosenzweig, Elena Silvestrova Rakhimov
+SQL> 
+SQL> REM EJERCICIO DE LA PµGINA 34
+SQL> DECLARE
+  2  v_first_name VARCHAR2(35);
+  3  v_last_name VARCHAR2(35);
+  4  c_counter CONSTANT NUMBER := 0;
+  5  BEGIN
+  6  SELECT first_name, last_name
+  7  INTO v_first_name, v_last_name
+  8  FROM student
+  9  WHERE student_id = 123;
+ 10  DBMS_OUTPUT.PUT_LINE ('Student name: '||v_first_name||' '||
+ 11  v_last_name);
+ 12  END;
+ 13  /
+Student name: Pierre Radicola                                                   
+
+PL/SQL procedure successfully completed.
+
+SQL> 
+SQL> spool off

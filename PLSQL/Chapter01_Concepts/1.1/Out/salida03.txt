@@ -1,0 +1,28 @@
+SQL> rem ROSENZWEIG,B &  RAKHIMOV,E (2009).Oracle PL/SQL by example / Benjamin Rosenzweig, Elena Silvestrova Rakhimov
+SQL> 
+SQL> 
+SQL> REM EJERCICIO DE LA PµGINA 37
+SQL> DECLARE
+  2  v_name VARCHAR2(50);
+  3  v_total NUMBER;
+  4  BEGIN
+  5  SELECT i.first_name||' '||i.last_name, COUNT(*)
+  6  INTO v_name, v_total
+  7  FROM instructor i, section s --Aqui tengo una duda sobre section
+  8  WHERE i.instructor_id = s.instructor_id
+  9  AND i.instructor_id = 102
+ 10  GROUP BY i.first_name||' '||i.last_name;
+ 11  DBMS_OUTPUT.PUT_LINE
+ 12  ('Instructor '||v_name||' teaches '||v_total||' courses');
+ 13  EXCEPTION
+ 14  WHEN NO_DATA_FOUND THEN
+ 15  DBMS_OUTPUT.PUT_LINE ('There is no such instructor');
+ 16  END;
+ 17  /
+Instructor Tom Wojick teaches 10 courses                                        
+
+PL/SQL procedure successfully completed.
+
+SQL> 
+SQL> 
+SQL> spool off

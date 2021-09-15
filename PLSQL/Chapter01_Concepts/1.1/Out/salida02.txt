@@ -1,0 +1,25 @@
+SQL> rem ROSENZWEIG,B &  RAKHIMOV,E (2009).Oracle PL/SQL by example / Benjamin Rosenzweig, Elena Silvestrova Rakhimov
+SQL> 
+SQL> REM EJERCICIO DE LA PµGINA 35
+SQL> DECLARE
+  2  v_first_name VARCHAR2(35);
+  3  v_last_name VARCHAR2(35);
+  4  BEGIN
+  5  SELECT first_name, last_name
+  6  INTO v_first_name, v_last_name
+  7  FROM student
+  8  WHERE student_id = 1239;
+  9  DBMS_OUTPUT.PUT_LINE ('Student name: '||v_first_name||' '||
+ 10  v_last_name);
+ 11  EXCEPTION
+ 12  WHEN NO_DATA_FOUND THEN
+ 13  DBMS_OUTPUT.PUT_LINE ('There is no student with '||
+ 14  'student id 1239');
+ 15  END;
+ 16  /
+There is no student with student id 1239                                        
+
+PL/SQL procedure successfully completed.
+
+SQL> 
+SQL> spool off

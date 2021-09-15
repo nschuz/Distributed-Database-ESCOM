@@ -1,0 +1,43 @@
+SQL> rem ROSENZWEIG,B &  RAKHIMOV,E (2009).Oracle PL/SQL by example / Benjamin Rosenzweig, Elena Silvestrova Rakhimov
+SQL> 
+SQL> 
+SQL> REM EJERCICIO DE LA PAGINA 55
+SQL> 
+SQL> SET SERVEROUTPUT ON;
+SQL> DECLARE
+  2  exception VARCHAR2(15); --Usando una palabra reservada como nombre de variable
+  3  BEGIN
+  4  exception := 'This is a test';
+  5  DBMS_OUTPUT.PUT_LINE(exception);
+  6  END;
+  7  .
+SQL> /
+exception VARCHAR2(15); --Usando una palabra reservada como nombre de variable
+*
+ERROR at line 2:
+ORA-06550: line 2, column 1: 
+PLS-00103: Encountered the symbol "EXCEPTION" when expecting one of the 
+following: 
+begin function pragma procedure subtype type <an identifier> 
+<a double-quoted delimited-identifier> current cursor delete 
+exists prior 
+The symbol "begin was inserted before "EXCEPTION" to continue. 
+ORA-06550: line 4, column 1: 
+PLS-00103: Encountered the symbol "EXCEPTION" when expecting one of the 
+following: 
+( begin case declare exit for goto if loop mod null pragma 
+raise return select update while with <an identifier> 
+<a double-quoted delimited-identi 
+ORA-06550: line 5, column 22: 
+PLS-00103: Encountered the symbol "EXCEPTION" when expecting one of the 
+following: 
+( ) - + case mod new not null <an identifier> 
+<a double-quoted delimited-identifier> <a bind variable> 
+table continue avg count current exists ma 
+ORA-06550: line 6, column 4: 
+PLS-00103: Encountered the symbol "end-of-file" when expecting one of the 
+following: 
+( begin case declare end exception exit for got
+
+
+SQL> spool off

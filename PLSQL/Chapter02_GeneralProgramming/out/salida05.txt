@@ -1,0 +1,19 @@
+SQL> rem ROSENZWEIG,B &  RAKHIMOV,E (2009).Oracle PL/SQL by example / Benjamin Rosenzweig, Elena Silvestrova Rakhimov
+SQL> 
+SQL> REM EJERCICIO DE LA PAGINA 58
+SQL> SET SERVEROUTPUT ON
+SQL> DECLARE
+  2  v_name student.first_name%TYPE; --Se define con el tipo de dato de la base de datos, en este caso varcar2(25)
+  3  v_grade grade.numeric_grade%TYPE;
+  4  BEGIN
+  5  DBMS_OUTPUT.PUT_LINE(NVL(v_name, 'No Name ')|| --Las variables tienen un valor NULL
+  6  ' has grade of '||NVL(v_grade, 0)); --NVL sustituye el valor de una variable cuando es NULL
+  7  END;
+  8  .
+SQL> /
+No Name  has grade of 0                                                         
+
+PL/SQL procedure successfully completed.
+
+SQL> 
+SQL> spool off
