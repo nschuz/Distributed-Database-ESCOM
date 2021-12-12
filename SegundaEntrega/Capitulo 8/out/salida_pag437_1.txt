@@ -1,0 +1,8 @@
+
+ COURSE_NO|=|DESCRIPTION                                                                                                          
+----------|=|--------------------------------------------------                                                                   
+        80|=|Structured Programming Techniques                                                                                    
+       430|=|JDeveloper Techniques                                                                                                
+
+2 rows selected.
+

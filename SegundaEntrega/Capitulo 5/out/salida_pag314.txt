@@ -1,0 +1,6 @@
+SELECT location, instructor_id,
+                 *
+ERROR at line 1:
+ORA-00979: not a GROUP BY expression 
+
+

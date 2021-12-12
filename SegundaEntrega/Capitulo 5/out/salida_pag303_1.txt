@@ -1,0 +1,5 @@
+
+COUNT(DISTINCTSECTION_ID) COUNT(SECTION_ID)                                     
+------------------------- -----------------                                     
+                       64               226                                     
+

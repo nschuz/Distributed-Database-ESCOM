@@ -1,0 +1,22 @@
+
+INSTRUCTOR_ID|=|ZIP  |=|LAST_NAME                |=|FIRST_NAME                                                                    
+-------------|=|-----|=|-------------------------|=|-------------------------                                                     
+          110|=|s/Dat|=|Willig                   |=|Irene                                                                         
+             |=|os   |=|                         |=|                                                                              
+                                                                                                                                  
+
+
+INSTRUCTOR_ID|=|ZIP  |=|LAST_NAME                |=|FIRST_NAME                                                                    
+-------------|=|-----|=|-------------------------|=|-------------------------                                                     
+          101|=|10015|=|Hanks                    |=|Fernand                                                                       
+          102|=|10025|=|Wojick                   |=|Tom                                                                           
+          103|=|10025|=|Schorin                  |=|Nina                                                                          
+          104|=|10035|=|Pertez                   |=|Gary                                                                          
+          105|=|10015|=|Morris                   |=|Anita                                                                         
+          106|=|10025|=|Smythe                   |=|Todd                                                                          
+          107|=|10005|=|Frantzen                 |=|Marilyn                                                                       
+          108|=|10025|=|Lowry                    |=|Charles                                                                       
+          109|=|10015|=|Chow                     |=|Rick                                                                          
+
+9 rows selected.
+

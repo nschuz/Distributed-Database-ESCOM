@@ -1,0 +1,23 @@
+
+Location   INSTRUCTOR_ID Total Locations Total Capacity                         
+---------- ------------- --------------- --------------                         
+L509                 106               5            115                         
+L509                 101               4             85                         
+L509                 105               3             75                         
+L507                 107               3             75                         
+L509                 103               3             75                         
+L507                 101               3             75                         
+L509                 104               3             75                         
+L214                 102               4             70                         
+L214                 104               4             70                         
+L507                 105               3             65                         
+L507                 102               3             65                         
+
+Location   INSTRUCTOR_ID Total Locations Total Capacity                         
+---------- ------------- --------------- --------------                         
+L509                 107               3             65                         
+L210                 108               3             55                         
+L214                 106               3             55                         
+
+14 rows selected.
+

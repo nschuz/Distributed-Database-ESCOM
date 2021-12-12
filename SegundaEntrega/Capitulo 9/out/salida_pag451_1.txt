@@ -1,0 +1,21 @@
+
+  CNO|=|  SNO|=|DESCRIPTION |=|    PREREQ|=|LOC      |=|SECTION_ID                                                                                    
+-----|=|-----|=|------------|=|----------|=|---------|=|----------                                                                                    
+  430|=|     |=|JDeveloper T|=|       350|=|         |=|                                                                                              
+     |=|     |=|echniques   |=|          |=|         |=|                                                                                              
+                                                                                                                                                      
+  450|=|  450|=|DB Programmi|=|       350|=|L507     |=|       109                                                                                    
+     |=|     |=|ng in Java  |=|          |=|         |=|                                                                                              
+                                                                                                                                                      
+
+
+ COURSE_NO|=|DESCRIPTION                                                                                                                              
+----------|=|------------                                                                                                                             
+        80|=|Structured P                                                                                                                             
+          |=|rogramming T                                                                                                                             
+          |=|echniques                                                                                                                                
+                                                                                                                                                      
+       430|=|JDeveloper T                                                                                                                             
+          |=|echniques                                                                                                                                
+                                                                                                                                                      
+

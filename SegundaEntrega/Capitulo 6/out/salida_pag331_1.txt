@@ -1,0 +1,90 @@
+USING (c.course_no)
+        *
+ERROR at line 4:
+ORA-01748: only simple column names allowed here 
+
+
+
+ COURSE_NO|=|SECTION_NO|=|DESCRIPTION                   |=|LOCATI|=|INSTRUCTOR_ID                                                 
+----------|=|----------|=|------------------------------|=|------|=|-------------                                                 
+       350|=|         3|=|JDeveloper Lab                |=|L509  |=|          107                                                 
+        10|=|         2|=|DP Overview                   |=|L214  |=|          102                                                 
+        20|=|         2|=|Intro to Computers            |=|L210  |=|          103                                                 
+        20|=|         4|=|Intro to Computers            |=|L214  |=|          104                                                 
+        20|=|         7|=|Intro to Computers            |=|L509  |=|          105                                                 
+        20|=|         8|=|Intro to Computers            |=|L210  |=|          106                                                 
+        25|=|         1|=|Intro to Programming          |=|M311  |=|          107                                                 
+        25|=|         2|=|Intro to Programming          |=|L210  |=|          108                                                 
+        25|=|         3|=|Intro to Programming          |=|L507  |=|          101                                                 
+        25|=|         4|=|Intro to Programming          |=|L214  |=|          102                                                 
+        25|=|         5|=|Intro to Programming          |=|L509  |=|          103                                                 
+        25|=|         6|=|Intro to Programming          |=|L509  |=|          104                                                 
+        25|=|         7|=|Intro to Programming          |=|L210  |=|          105                                                 
+        25|=|         8|=|Intro to Programming          |=|L509  |=|          106                                                 
+        25|=|         9|=|Intro to Programming          |=|L507  |=|          107                                                 
+       146|=|         2|=|Java for C/C++ Programmers    |=|L507  |=|          102                                                 
+       147|=|         1|=|GUI Programming               |=|L509  |=|          103                                                 
+       204|=|         1|=|Intro to SQL                  |=|L210  |=|          104                                                 
+       210|=|         1|=|Oracle Tools                  |=|L507  |=|          105                                                 
+       220|=|         1|=|PL/SQL Programming            |=|L509  |=|          106                                                 
+       230|=|         1|=|Intro to Internet             |=|L500  |=|          107                                                 
+       230|=|         2|=|Intro to Internet             |=|L214  |=|          108                                                 
+       240|=|         1|=|Intro to the Basic Language   |=|L509  |=|          101                                                 
+       240|=|         2|=|Intro to the Basic Language   |=|L214  |=|          102                                                 
+       310|=|         1|=|Operating Systems             |=|L507  |=|          103                                                 
+       330|=|         1|=|Network Administration        |=|L511  |=|          104                                                 
+       350|=|         1|=|JDeveloper Lab                |=|L509  |=|          105                                                 
+       350|=|         2|=|JDeveloper Lab                |=|L214  |=|          106                                                 
+       130|=|         1|=|Intro to Unix                 |=|L507  |=|          103                                                 
+       420|=|         1|=|Database System Principles    |=|M311  |=|          108                                                 
+       450|=|         1|=|DB Programming in Java        |=|L507  |=|          101                                                 
+       134|=|         2|=|Advanced Unix Admin           |=|L509  |=|          102                                                 
+       134|=|         3|=|Advanced Unix Admin           |=|L509  |=|          103                                                 
+       135|=|         1|=|Unix Tips and Techniques      |=|L509  |=|          104                                                 
+       135|=|         2|=|Unix Tips and Techniques      |=|L214  |=|          105                                                 
+       135|=|         3|=|Unix Tips and Techniques      |=|L509  |=|          106                                                 
+       135|=|         4|=|Unix Tips and Techniques      |=|M200  |=|          107                                                 
+       140|=|         1|=|Structured Analysis           |=|L509  |=|          108                                                 
+       140|=|         2|=|Structured Analysis           |=|L210  |=|          101                                                 
+       140|=|         3|=|Structured Analysis           |=|L507  |=|          102                                                 
+       142|=|         1|=|Project Management            |=|L211  |=|          103                                                 
+       142|=|         2|=|Project Management            |=|L214  |=|          104                                                 
+       142|=|         3|=|Project Management            |=|L507  |=|          105                                                 
+       144|=|         2|=|Database Design               |=|L214  |=|          106                                                 
+       145|=|         1|=|Internet Protocols            |=|L214  |=|          107                                                 
+       145|=|         3|=|Internet Protocols            |=|L210  |=|          108                                                 
+       146|=|         1|=|Java for C/C++ Programmers    |=|L509  |=|          101                                                 
+       124|=|         1|=|Advanced Java Programming     |=|M500  |=|          102                                                 
+       124|=|         2|=|Advanced Java Programming     |=|H310  |=|          103                                                 
+       124|=|         3|=|Advanced Java Programming     |=|L214  |=|          104                                                 
+       124|=|         4|=|Advanced Java Programming     |=|L210  |=|          105                                                 
+       125|=|         1|=|JDeveloper                    |=|L509  |=|          106                                                 
+       125|=|         2|=|JDeveloper                    |=|L509  |=|          107                                                 
+       125|=|         3|=|JDeveloper                    |=|L214  |=|          108                                                 
+       125|=|         4|=|JDeveloper                    |=|L211  |=|          101                                                 
+       125|=|         6|=|JDeveloper                    |=|L507  |=|          102                                                 
+       130|=|         2|=|Intro to Unix                 |=|L214  |=|          104                                                 
+       130|=|         3|=|Intro to Unix                 |=|L509  |=|          105                                                 
+       130|=|         4|=|Intro to Unix                 |=|L509  |=|          106                                                 
+       132|=|         1|=|Basics of Unix Admin          |=|L509  |=|          107                                                 
+       132|=|         3|=|Basics of Unix Admin          |=|L509  |=|          108                                                 
+       134|=|         1|=|Advanced Unix Admin           |=|L509  |=|          101                                                 
+       100|=|         1|=|Hands-On Windows              |=|L214  |=|          102                                                 
+       100|=|         2|=|Hands-On Windows              |=|L500  |=|          103                                                 
+       100|=|         3|=|Hands-On Windows              |=|L509  |=|          104                                                 
+       100|=|         4|=|Hands-On Windows              |=|L507  |=|          105                                                 
+       100|=|         5|=|Hands-On Windows              |=|L214  |=|          106                                                 
+       120|=|         1|=|Intro to Java Programming     |=|L507  |=|          107                                                 
+       120|=|         2|=|Intro to Java Programming     |=|L206  |=|          108                                                 
+       120|=|         3|=|Intro to Java Programming     |=|L509  |=|          101                                                 
+       120|=|         4|=|Intro to Java Programming     |=|L509  |=|          102                                                 
+       120|=|         5|=|Intro to Java Programming     |=|L210  |=|          103                                                 
+       120|=|         7|=|Intro to Java Programming     |=|L507  |=|          104                                                 
+       122|=|         1|=|Intermediate Java Programming |=|M311  |=|          105                                                 
+       122|=|         2|=|Intermediate Java Programming |=|L211  |=|          106                                                 
+       122|=|         3|=|Intermediate Java Programming |=|L507  |=|          107                                                 
+       122|=|         4|=|Intermediate Java Programming |=|L210  |=|          108                                                 
+       122|=|         5|=|Intermediate Java Programming |=|L507  |=|          101                                                 
+
+78 rows selected.
+

@@ -1,0 +1,28 @@
+
+ COURSE_NO|=|DESCRIPTION                   |=|SECTION_NO                                                                          
+----------|=|------------------------------|=|----------                                                                          
+        10|=|DP Overview                   |=|         2                                                                          
+        20|=|Intro to Computers            |=|         2                                                                          
+        20|=|Intro to Computers            |=|         4                                                                          
+        20|=|Intro to Computers            |=|         7                                                                          
+        20|=|Intro to Computers            |=|         8                                                                          
+       146|=|Java for C/C++ Programmers    |=|         1                                                                          
+       146|=|Java for C/C++ Programmers    |=|         2                                                                          
+       310|=|Operating Systems             |=|         1                                                                          
+
+8 rows selected.
+
+
+ COURSE_NO|=|DESCRIPTION                   |=|SECTION_NO                                                                          
+----------|=|------------------------------|=|----------                                                                          
+        10|=|DP Overview                   |=|         2                                                                          
+        20|=|Intro to Computers            |=|         2                                                                          
+        20|=|Intro to Computers            |=|         4                                                                          
+        20|=|Intro to Computers            |=|         7                                                                          
+        20|=|Intro to Computers            |=|         8                                                                          
+       146|=|Java for C/C++ Programmers    |=|         1                                                                          
+       146|=|Java for C/C++ Programmers    |=|         2                                                                          
+       310|=|Operating Systems             |=|         1                                                                          
+
+8 rows selected.
+

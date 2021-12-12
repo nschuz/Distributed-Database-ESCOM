@@ -1,0 +1,8 @@
+
+INSTRUCTOR_ID                                                                                                                     
+-------------                                                                                                                     
+          109                                                                                                                     
+          110                                                                                                                     
+
+2 rows selected.
+

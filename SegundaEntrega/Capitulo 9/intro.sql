@@ -1,0 +1,1 @@
+La combinación externa es similar a la equijoin porque devuelve todos los registros que devuelve la equijoin. Pero también devuelve registros que están en una de las tablas sin registros coincidentes en otra tabla.

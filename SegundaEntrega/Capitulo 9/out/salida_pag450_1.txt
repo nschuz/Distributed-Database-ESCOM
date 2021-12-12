@@ -1,0 +1,172 @@
+
+ COURSE_NO|=|DESCRIPTION                   |=|SECTION_ID|=| COURSE_NO                                                             
+----------|=|------------------------------|=|----------|=|----------                                                             
+        10|=|DP Overview                   |=|        80|=|        10                                                             
+        20|=|Intro to Computers            |=|        81|=|        20                                                             
+        20|=|Intro to Computers            |=|        84|=|        20                                                             
+        20|=|Intro to Computers            |=|        83|=|        20                                                             
+        20|=|Intro to Computers            |=|        82|=|        20                                                             
+        25|=|Intro to Programming          |=|        90|=|        25                                                             
+        25|=|Intro to Programming          |=|        91|=|        25                                                             
+        25|=|Intro to Programming          |=|        89|=|        25                                                             
+        25|=|Intro to Programming          |=|        88|=|        25                                                             
+        25|=|Intro to Programming          |=|        87|=|        25                                                             
+        25|=|Intro to Programming          |=|        86|=|        25                                                             
+        25|=|Intro to Programming          |=|        85|=|        25                                                             
+        25|=|Intro to Programming          |=|        92|=|        25                                                             
+        25|=|Intro to Programming          |=|        93|=|        25                                                             
+        80|=|Structured Programming Techniq|=|s/Dato    |=|s/Dato                                                                 
+          |=|ues                           |=|          |=|                                                                       
+                                                                                                                                  
+       100|=|Hands-On Windows              |=|       142|=|       100                                                             
+       100|=|Hands-On Windows              |=|       143|=|       100                                                             
+       100|=|Hands-On Windows              |=|       144|=|       100                                                             
+       100|=|Hands-On Windows              |=|       145|=|       100                                                             
+       100|=|Hands-On Windows              |=|       141|=|       100                                                             
+       120|=|Intro to Java Programming     |=|       147|=|       120                                                             
+       120|=|Intro to Java Programming     |=|       148|=|       120                                                             
+       120|=|Intro to Java Programming     |=|       149|=|       120                                                             
+       120|=|Intro to Java Programming     |=|       150|=|       120                                                             
+       120|=|Intro to Java Programming     |=|       151|=|       120                                                             
+       120|=|Intro to Java Programming     |=|       146|=|       120                                                             
+       122|=|Intermediate Java Programming |=|       155|=|       122                                                             
+       122|=|Intermediate Java Programming |=|       156|=|       122                                                             
+       122|=|Intermediate Java Programming |=|       154|=|       122                                                             
+       122|=|Intermediate Java Programming |=|       153|=|       122                                                             
+       122|=|Intermediate Java Programming |=|       152|=|       122                                                             
+       124|=|Advanced Java Programming     |=|       128|=|       124                                                             
+       124|=|Advanced Java Programming     |=|       129|=|       124                                                             
+       124|=|Advanced Java Programming     |=|       126|=|       124                                                             
+       124|=|Advanced Java Programming     |=|       127|=|       124                                                             
+       125|=|JDeveloper                    |=|       133|=|       125                                                             
+       125|=|JDeveloper                    |=|       131|=|       125                                                             
+       125|=|JDeveloper                    |=|       130|=|       125                                                             
+       125|=|JDeveloper                    |=|       134|=|       125                                                             
+       125|=|JDeveloper                    |=|       132|=|       125                                                             
+       130|=|Intro to Unix                 |=|       137|=|       130                                                             
+       130|=|Intro to Unix                 |=|       135|=|       130                                                             
+       130|=|Intro to Unix                 |=|       136|=|       130                                                             
+       130|=|Intro to Unix                 |=|       107|=|       130                                                             
+       132|=|Basics of Unix Admin          |=|       139|=|       132                                                             
+       132|=|Basics of Unix Admin          |=|       138|=|       132                                                             
+       134|=|Advanced Unix Admin           |=|       110|=|       134                                                             
+       134|=|Advanced Unix Admin           |=|       140|=|       134                                                             
+       134|=|Advanced Unix Admin           |=|       111|=|       134                                                             
+       135|=|Unix Tips and Techniques      |=|       113|=|       135                                                             
+       135|=|Unix Tips and Techniques      |=|       114|=|       135                                                             
+       135|=|Unix Tips and Techniques      |=|       112|=|       135                                                             
+       135|=|Unix Tips and Techniques      |=|       115|=|       135                                                             
+       140|=|Structured Analysis           |=|       116|=|       140                                                             
+       140|=|Structured Analysis           |=|       117|=|       140                                                             
+       140|=|Structured Analysis           |=|       118|=|       140                                                             
+       142|=|Project Management            |=|       119|=|       142                                                             
+       142|=|Project Management            |=|       121|=|       142                                                             
+       142|=|Project Management            |=|       120|=|       142                                                             
+       144|=|Database Design               |=|       122|=|       144                                                             
+       145|=|Internet Protocols            |=|       124|=|       145                                                             
+       145|=|Internet Protocols            |=|       123|=|       145                                                             
+       146|=|Java for C/C++ Programmers    |=|       125|=|       146                                                             
+       146|=|Java for C/C++ Programmers    |=|        94|=|       146                                                             
+       147|=|GUI Programming               |=|        95|=|       147                                                             
+       204|=|Intro to SQL                  |=|        96|=|       204                                                             
+       210|=|Oracle Tools                  |=|        97|=|       210                                                             
+       220|=|PL/SQL Programming            |=|        98|=|       220                                                             
+       230|=|Intro to Internet             |=|       100|=|       230                                                             
+       230|=|Intro to Internet             |=|        99|=|       230                                                             
+       240|=|Intro to the Basic Language   |=|       102|=|       240                                                             
+       240|=|Intro to the Basic Language   |=|       101|=|       240                                                             
+       310|=|Operating Systems             |=|       103|=|       310                                                             
+       330|=|Network Administration        |=|       104|=|       330                                                             
+       350|=|JDeveloper Lab                |=|       106|=|       350                                                             
+       350|=|JDeveloper Lab                |=|       105|=|       350                                                             
+       350|=|JDeveloper Lab                |=|        79|=|       350                                                             
+       420|=|Database System Principles    |=|       108|=|       420                                                             
+       430|=|JDeveloper Techniques         |=|s/Dato    |=|s/Dato                                                                 
+       450|=|DB Programming in Java        |=|       109|=|       450                                                             
+
+80 rows selected.
+
+
+ COURSE_NO|=|DESCRIPTION                   |=|SECTION_ID|=| COURSE_NO                                                             
+----------|=|------------------------------|=|----------|=|----------                                                             
+        10|=|DP Overview                   |=|        80|=|        10                                                             
+        20|=|Intro to Computers            |=|        82|=|        20                                                             
+        20|=|Intro to Computers            |=|        83|=|        20                                                             
+        20|=|Intro to Computers            |=|        84|=|        20                                                             
+        20|=|Intro to Computers            |=|        81|=|        20                                                             
+        25|=|Intro to Programming          |=|        90|=|        25                                                             
+        25|=|Intro to Programming          |=|        91|=|        25                                                             
+        25|=|Intro to Programming          |=|        92|=|        25                                                             
+        25|=|Intro to Programming          |=|        93|=|        25                                                             
+        25|=|Intro to Programming          |=|        89|=|        25                                                             
+        25|=|Intro to Programming          |=|        85|=|        25                                                             
+        25|=|Intro to Programming          |=|        86|=|        25                                                             
+        25|=|Intro to Programming          |=|        87|=|        25                                                             
+        25|=|Intro to Programming          |=|        88|=|        25                                                             
+       100|=|Hands-On Windows              |=|       142|=|       100                                                             
+       100|=|Hands-On Windows              |=|       143|=|       100                                                             
+       100|=|Hands-On Windows              |=|       144|=|       100                                                             
+       100|=|Hands-On Windows              |=|       145|=|       100                                                             
+       100|=|Hands-On Windows              |=|       141|=|       100                                                             
+       120|=|Intro to Java Programming     |=|       151|=|       120                                                             
+       120|=|Intro to Java Programming     |=|       146|=|       120                                                             
+       120|=|Intro to Java Programming     |=|       147|=|       120                                                             
+       120|=|Intro to Java Programming     |=|       148|=|       120                                                             
+       120|=|Intro to Java Programming     |=|       149|=|       120                                                             
+       120|=|Intro to Java Programming     |=|       150|=|       120                                                             
+       122|=|Intermediate Java Programming |=|       156|=|       122                                                             
+       122|=|Intermediate Java Programming |=|       155|=|       122                                                             
+       122|=|Intermediate Java Programming |=|       154|=|       122                                                             
+       122|=|Intermediate Java Programming |=|       153|=|       122                                                             
+       122|=|Intermediate Java Programming |=|       152|=|       122                                                             
+       124|=|Advanced Java Programming     |=|       129|=|       124                                                             
+       124|=|Advanced Java Programming     |=|       128|=|       124                                                             
+       124|=|Advanced Java Programming     |=|       126|=|       124                                                             
+       124|=|Advanced Java Programming     |=|       127|=|       124                                                             
+       125|=|JDeveloper                    |=|       132|=|       125                                                             
+       125|=|JDeveloper                    |=|       133|=|       125                                                             
+       125|=|JDeveloper                    |=|       131|=|       125                                                             
+       125|=|JDeveloper                    |=|       134|=|       125                                                             
+       125|=|JDeveloper                    |=|       130|=|       125                                                             
+       130|=|Intro to Unix                 |=|       137|=|       130                                                             
+       130|=|Intro to Unix                 |=|       136|=|       130                                                             
+       130|=|Intro to Unix                 |=|       135|=|       130                                                             
+       130|=|Intro to Unix                 |=|       107|=|       130                                                             
+       132|=|Basics of Unix Admin          |=|       138|=|       132                                                             
+       132|=|Basics of Unix Admin          |=|       139|=|       132                                                             
+       134|=|Advanced Unix Admin           |=|       140|=|       134                                                             
+       134|=|Advanced Unix Admin           |=|       111|=|       134                                                             
+       134|=|Advanced Unix Admin           |=|       110|=|       134                                                             
+       135|=|Unix Tips and Techniques      |=|       114|=|       135                                                             
+       135|=|Unix Tips and Techniques      |=|       115|=|       135                                                             
+       135|=|Unix Tips and Techniques      |=|       113|=|       135                                                             
+       135|=|Unix Tips and Techniques      |=|       112|=|       135                                                             
+       140|=|Structured Analysis           |=|       118|=|       140                                                             
+       140|=|Structured Analysis           |=|       117|=|       140                                                             
+       140|=|Structured Analysis           |=|       116|=|       140                                                             
+       142|=|Project Management            |=|       121|=|       142                                                             
+       142|=|Project Management            |=|       120|=|       142                                                             
+       142|=|Project Management            |=|       119|=|       142                                                             
+       144|=|Database Design               |=|       122|=|       144                                                             
+       145|=|Internet Protocols            |=|       124|=|       145                                                             
+       145|=|Internet Protocols            |=|       123|=|       145                                                             
+       146|=|Java for C/C++ Programmers    |=|       125|=|       146                                                             
+       146|=|Java for C/C++ Programmers    |=|        94|=|       146                                                             
+       147|=|GUI Programming               |=|        95|=|       147                                                             
+       204|=|Intro to SQL                  |=|        96|=|       204                                                             
+       210|=|Oracle Tools                  |=|        97|=|       210                                                             
+       220|=|PL/SQL Programming            |=|        98|=|       220                                                             
+       230|=|Intro to Internet             |=|       100|=|       230                                                             
+       230|=|Intro to Internet             |=|        99|=|       230                                                             
+       240|=|Intro to the Basic Language   |=|       102|=|       240                                                             
+       240|=|Intro to the Basic Language   |=|       101|=|       240                                                             
+       310|=|Operating Systems             |=|       103|=|       310                                                             
+       330|=|Network Administration        |=|       104|=|       330                                                             
+       350|=|JDeveloper Lab                |=|       106|=|       350                                                             
+       350|=|JDeveloper Lab                |=|       105|=|       350                                                             
+       350|=|JDeveloper Lab                |=|        79|=|       350                                                             
+       420|=|Database System Principles    |=|       108|=|       420                                                             
+       450|=|DB Programming in Java        |=|       109|=|       450                                                             
+
+78 rows selected.
+

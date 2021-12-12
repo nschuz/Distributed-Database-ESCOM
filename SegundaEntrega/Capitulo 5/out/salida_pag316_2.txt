@@ -1,0 +1,5 @@
+
+Location   INSTRUCTOR_ID Total Locations Total Capacity                         
+---------- ------------- --------------- --------------                         
+L214                 104               3             55                         
+

@@ -1,0 +1,212 @@
+
+ COURSE_NO|=|SECTION_NO|=|DESCRIPTION    |=|LOCATION |=|INSTRUCTOR_ID|=|LAST_NAME                |=|FIRST_NAME                    
+----------|=|----------|=|---------------|=|---------|=|-------------|=|-------------------------|=|-------------------------     
+        10|=|         2|=|DP Overview    |=|L214     |=|          102|=|Wojick                   |=|Tom                           
+        20|=|         8|=|Intro to Comput|=|L210     |=|          106|=|Smythe                   |=|Todd                          
+          |=|          |=|ers            |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+        20|=|         7|=|Intro to Comput|=|L509     |=|          105|=|Morris                   |=|Anita                         
+          |=|          |=|ers            |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+        20|=|         4|=|Intro to Comput|=|L214     |=|          104|=|Pertez                   |=|Gary                          
+          |=|          |=|ers            |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+        20|=|         2|=|Intro to Comput|=|L210     |=|          103|=|Schorin                  |=|Nina                          
+          |=|          |=|ers            |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+        25|=|         9|=|Intro to Progra|=|L507     |=|          107|=|Frantzen                 |=|Marilyn                       
+          |=|          |=|mming          |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+        25|=|         8|=|Intro to Progra|=|L509     |=|          106|=|Smythe                   |=|Todd                          
+          |=|          |=|mming          |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+        25|=|         7|=|Intro to Progra|=|L210     |=|          105|=|Morris                   |=|Anita                         
+          |=|          |=|mming          |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+        25|=|         6|=|Intro to Progra|=|L509     |=|          104|=|Pertez                   |=|Gary                          
+          |=|          |=|mming          |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+        25|=|         5|=|Intro to Progra|=|L509     |=|          103|=|Schorin                  |=|Nina                          
+          |=|          |=|mming          |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+        25|=|         4|=|Intro to Progra|=|L214     |=|          102|=|Wojick                   |=|Tom                           
+          |=|          |=|mming          |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+        25|=|         3|=|Intro to Progra|=|L507     |=|          101|=|Hanks                    |=|Fernand                       
+          |=|          |=|mming          |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+        25|=|         2|=|Intro to Progra|=|L210     |=|          108|=|Lowry                    |=|Charles                       
+          |=|          |=|mming          |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+        25|=|         1|=|Intro to Progra|=|M311     |=|          107|=|Frantzen                 |=|Marilyn                       
+          |=|          |=|mming          |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       100|=|         5|=|Hands-On Window|=|L214     |=|          106|=|Smythe                   |=|Todd                          
+          |=|          |=|s              |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       100|=|         4|=|Hands-On Window|=|L507     |=|          105|=|Morris                   |=|Anita                         
+          |=|          |=|s              |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       100|=|         3|=|Hands-On Window|=|L509     |=|          104|=|Pertez                   |=|Gary                          
+          |=|          |=|s              |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       100|=|         2|=|Hands-On Window|=|L500     |=|          103|=|Schorin                  |=|Nina                          
+          |=|          |=|s              |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       100|=|         1|=|Hands-On Window|=|L214     |=|          102|=|Wojick                   |=|Tom                           
+          |=|          |=|s              |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       120|=|         7|=|Intro to Java P|=|L507     |=|          104|=|Pertez                   |=|Gary                          
+          |=|          |=|rogramming     |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       120|=|         5|=|Intro to Java P|=|L210     |=|          103|=|Schorin                  |=|Nina                          
+          |=|          |=|rogramming     |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       120|=|         4|=|Intro to Java P|=|L509     |=|          102|=|Wojick                   |=|Tom                           
+          |=|          |=|rogramming     |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       120|=|         3|=|Intro to Java P|=|L509     |=|          101|=|Hanks                    |=|Fernand                       
+          |=|          |=|rogramming     |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       120|=|         2|=|Intro to Java P|=|L206     |=|          108|=|Lowry                    |=|Charles                       
+          |=|          |=|rogramming     |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       120|=|         1|=|Intro to Java P|=|L507     |=|          107|=|Frantzen                 |=|Marilyn                       
+          |=|          |=|rogramming     |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       122|=|         5|=|Intermediate Ja|=|L507     |=|          101|=|Hanks                    |=|Fernand                       
+          |=|          |=|va Programming |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       122|=|         4|=|Intermediate Ja|=|L210     |=|          108|=|Lowry                    |=|Charles                       
+          |=|          |=|va Programming |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       122|=|         3|=|Intermediate Ja|=|L507     |=|          107|=|Frantzen                 |=|Marilyn                       
+          |=|          |=|va Programming |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       122|=|         2|=|Intermediate Ja|=|L211     |=|          106|=|Smythe                   |=|Todd                          
+          |=|          |=|va Programming |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       122|=|         1|=|Intermediate Ja|=|M311     |=|          105|=|Morris                   |=|Anita                         
+          |=|          |=|va Programming |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       124|=|         4|=|Advanced Java P|=|L210     |=|          105|=|Morris                   |=|Anita                         
+          |=|          |=|rogramming     |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       124|=|         3|=|Advanced Java P|=|L214     |=|          104|=|Pertez                   |=|Gary                          
+          |=|          |=|rogramming     |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       124|=|         2|=|Advanced Java P|=|H310     |=|          103|=|Schorin                  |=|Nina                          
+          |=|          |=|rogramming     |=|         |=|             |=|                         |=|                              
+
+ COURSE_NO|=|SECTION_NO|=|DESCRIPTION    |=|LOCATION |=|INSTRUCTOR_ID|=|LAST_NAME                |=|FIRST_NAME                    
+----------|=|----------|=|---------------|=|---------|=|-------------|=|-------------------------|=|-------------------------     
+                                                                                                                                  
+       124|=|         1|=|Advanced Java P|=|M500     |=|          102|=|Wojick                   |=|Tom                           
+          |=|          |=|rogramming     |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       125|=|         6|=|JDeveloper     |=|L507     |=|          102|=|Wojick                   |=|Tom                           
+       125|=|         4|=|JDeveloper     |=|L211     |=|          101|=|Hanks                    |=|Fernand                       
+       125|=|         3|=|JDeveloper     |=|L214     |=|          108|=|Lowry                    |=|Charles                       
+       125|=|         2|=|JDeveloper     |=|L509     |=|          107|=|Frantzen                 |=|Marilyn                       
+       125|=|         1|=|JDeveloper     |=|L509     |=|          106|=|Smythe                   |=|Todd                          
+       130|=|         4|=|Intro to Unix  |=|L509     |=|          106|=|Smythe                   |=|Todd                          
+       130|=|         3|=|Intro to Unix  |=|L509     |=|          105|=|Morris                   |=|Anita                         
+       130|=|         2|=|Intro to Unix  |=|L214     |=|          104|=|Pertez                   |=|Gary                          
+       130|=|         1|=|Intro to Unix  |=|L507     |=|          103|=|Schorin                  |=|Nina                          
+       132|=|         3|=|Basics of Unix |=|L509     |=|          108|=|Lowry                    |=|Charles                       
+          |=|          |=|Admin          |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       132|=|         1|=|Basics of Unix |=|L509     |=|          107|=|Frantzen                 |=|Marilyn                       
+          |=|          |=|Admin          |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       134|=|         1|=|Advanced Unix A|=|L509     |=|          101|=|Hanks                    |=|Fernand                       
+          |=|          |=|dmin           |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       134|=|         3|=|Advanced Unix A|=|L509     |=|          103|=|Schorin                  |=|Nina                          
+          |=|          |=|dmin           |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       134|=|         2|=|Advanced Unix A|=|L509     |=|          102|=|Wojick                   |=|Tom                           
+          |=|          |=|dmin           |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       135|=|         4|=|Unix Tips and T|=|M200     |=|          107|=|Frantzen                 |=|Marilyn                       
+          |=|          |=|echniques      |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       135|=|         3|=|Unix Tips and T|=|L509     |=|          106|=|Smythe                   |=|Todd                          
+          |=|          |=|echniques      |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       135|=|         2|=|Unix Tips and T|=|L214     |=|          105|=|Morris                   |=|Anita                         
+          |=|          |=|echniques      |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       135|=|         1|=|Unix Tips and T|=|L509     |=|          104|=|Pertez                   |=|Gary                          
+          |=|          |=|echniques      |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       140|=|         3|=|Structured Anal|=|L507     |=|          102|=|Wojick                   |=|Tom                           
+          |=|          |=|ysis           |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       140|=|         2|=|Structured Anal|=|L210     |=|          101|=|Hanks                    |=|Fernand                       
+          |=|          |=|ysis           |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       140|=|         1|=|Structured Anal|=|L509     |=|          108|=|Lowry                    |=|Charles                       
+          |=|          |=|ysis           |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       142|=|         3|=|Project Managem|=|L507     |=|          105|=|Morris                   |=|Anita                         
+          |=|          |=|ent            |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       142|=|         2|=|Project Managem|=|L214     |=|          104|=|Pertez                   |=|Gary                          
+          |=|          |=|ent            |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       142|=|         1|=|Project Managem|=|L211     |=|          103|=|Schorin                  |=|Nina                          
+          |=|          |=|ent            |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       144|=|         2|=|Database Design|=|L214     |=|          106|=|Smythe                   |=|Todd                          
+       145|=|         3|=|Internet Protoc|=|L210     |=|          108|=|Lowry                    |=|Charles                       
+          |=|          |=|ols            |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       145|=|         1|=|Internet Protoc|=|L214     |=|          107|=|Frantzen                 |=|Marilyn                       
+          |=|          |=|ols            |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       146|=|         1|=|Java for C/C++ |=|L509     |=|          101|=|Hanks                    |=|Fernand                       
+          |=|          |=|Programmers    |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       146|=|         2|=|Java for C/C++ |=|L507     |=|          102|=|Wojick                   |=|Tom                           
+          |=|          |=|Programmers    |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       147|=|         1|=|GUI Programming|=|L509     |=|          103|=|Schorin                  |=|Nina                          
+       204|=|         1|=|Intro to SQL   |=|L210     |=|          104|=|Pertez                   |=|Gary                          
+       210|=|         1|=|Oracle Tools   |=|L507     |=|          105|=|Morris                   |=|Anita                         
+       220|=|         1|=|PL/SQL Programm|=|L509     |=|          106|=|Smythe                   |=|Todd                          
+          |=|          |=|ing            |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       230|=|         2|=|Intro to Intern|=|L214     |=|          108|=|Lowry                    |=|Charles                       
+          |=|          |=|et             |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       230|=|         1|=|Intro to Intern|=|L500     |=|          107|=|Frantzen                 |=|Marilyn                       
+          |=|          |=|et             |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       240|=|         2|=|Intro to the Ba|=|L214     |=|          102|=|Wojick                   |=|Tom                           
+          |=|          |=|sic Language   |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       240|=|         1|=|Intro to the Ba|=|L509     |=|          101|=|Hanks                    |=|Fernand                       
+          |=|          |=|sic Language   |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       310|=|         1|=|Operating Syste|=|L507     |=|          103|=|Schorin                  |=|Nina                          
+          |=|          |=|ms             |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       330|=|         1|=|Network Adminis|=|L511     |=|          104|=|Pertez                   |=|Gary                          
+          |=|          |=|tration        |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       350|=|         2|=|JDeveloper Lab |=|L214     |=|          106|=|Smythe                   |=|Todd                          
+
+ COURSE_NO|=|SECTION_NO|=|DESCRIPTION    |=|LOCATION |=|INSTRUCTOR_ID|=|LAST_NAME                |=|FIRST_NAME                    
+----------|=|----------|=|---------------|=|---------|=|-------------|=|-------------------------|=|-------------------------     
+       350|=|         1|=|JDeveloper Lab |=|L509     |=|          105|=|Morris                   |=|Anita                         
+       350|=|         3|=|JDeveloper Lab |=|L509     |=|          107|=|Frantzen                 |=|Marilyn                       
+       420|=|         1|=|Database System|=|M311     |=|          108|=|Lowry                    |=|Charles                       
+          |=|          |=| Principles    |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+       450|=|         1|=|DB Programming |=|L507     |=|          101|=|Hanks                    |=|Fernand                       
+          |=|          |=|in Java        |=|         |=|             |=|                         |=|                              
+                                                                                                                                  
+
+78 rows selected.
+

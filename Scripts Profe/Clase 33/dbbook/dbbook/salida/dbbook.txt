@@ -1,0 +1,170 @@
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+'TUPLASDEENTIDADSTUDENT:'      COUNT(*)                                         
+---------------------------- ----------                                         
+Tuplas de entidad STUDENT:            0                                         
+
+
+'TUPLASDEENTIDADFACULTY:'      COUNT(*)                                         
+---------------------------- ----------                                         
+Tuplas de entidad FACULTY:            0                                         
+
+
+'TUPLASDEENTIDADCLASS:'        COUNT(*)                                         
+---------------------------- ----------                                         
+Tuplas de entidad CLASS:              0                                         
+
+
+'TUPLASDEENTIDADENROLLED:'     COUNT(*)                                         
+---------------------------- ----------                                         
+Tuplas de entidad ENROLLED:           0                                         
+
+
+'TUPLASDEENTIDADEMP:'          COUNT(*)                                         
+---------------------------- ----------                                         
+Tuplas de entidad EMP:                0                                         
+
+
+'TUPLASDEENTIDADDEPT:'         COUNT(*)                                         
+---------------------------- ----------                                         
+Tuplas de entidad DEPT:               0                                         
+
+
+'TUPLASDEENTIDADWORKS:'       COUNT(*)                                          
+--------------------------- ----------                                          
+Tuplas de entidad WORKS:             0                                          
+
+
+'TUPLASDEENTIDADPARTS:'        COUNT(*)                                         
+---------------------------- ----------                                         
+Tuplas de entidad PARTS:              0                                         
+
+
+'TUPLASDEENTIDADSUPPLIERS:'    COUNT(*)                                         
+---------------------------- ----------                                         
+Tuplas de entidad SUPPLIERS:          0                                         
+
+
+'TUPLASDEENTIDADCATALOG:'      COUNT(*)                                         
+---------------------------- ----------                                         
+Tuplas de entidad CATALOG:            0                                         
+
+
+'TUPLASDEENTIDADAIRCRAFT:'     COUNT(*)                                         
+---------------------------- ----------                                         
+Tuplas de entidad AIRCRAFT:           0                                         
+
+
+'TUPLASDEENTIDADEMPLOYEES:'    COUNT(*)                                         
+---------------------------- ----------                                         
+Tuplas de entidad EMPLOYEES:          0                                         
+
+
+'TUPLASDEENTIDADFLIGHTS:'      COUNT(*)                                         
+---------------------------- ----------                                         
+Tuplas de entidad FLIGHTS:            0                                         
+
+
+'TUPLASDEENTIDADCERTIFIED:'    COUNT(*)                                         
+---------------------------- ----------                                         
+Tuplas de entidad CERTIFIED:          0                                         
+
+
+'TUPLASDEENTIDADSAILORS:'      COUNT(*)                                         
+---------------------------- ----------                                         
+Tuplas de entidad SAILORS:            0                                         
+
+
+'TUPLASDEENTIDADSAILORS:'      COUNT(*)                                         
+---------------------------- ----------                                         
+Tuplas de entidad SAILORS:            0                                         
+
