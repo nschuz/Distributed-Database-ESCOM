@@ -1,0 +1,15 @@
+USER es "STUDENT"
+
+SYSTIMESTAMP                                                                                                                      
+===========================================================================                                                       
+06/06/21 21:44:17.051000 -05:00                                                                                                   
+***************************************
+Alumno:Jesus Alberto Castillo Hernandez
+Asignatura: Base de datos
+Grupo:2CM12
+***************************************
+
+Disparador creado.
+
+INSERT INTO enrollment (student_id, section_id)
+VALUES (777, 123);

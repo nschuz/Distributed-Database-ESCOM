@@ -1,0 +1,19 @@
+USER es "STUDENT"
+
+SYSTIMESTAMP                                                                                                                      
+===========================================================================                                                       
+07/06/21 00:06:12.263000 -05:00                                                                                                   
+***************************************
+Alumno:Jesus Alberto Castillo Hernandez
+Asignatura: Base de datos
+Grupo:2CM12
+***************************************
+
+Advertencia: Disparador creado con errores de compilación.
+
+TABLE_NAME TRANSACTION_NAME TRANSACTION_USER TRANSACTION_DATE
+---------- ---------------- ---------------- ----------------
+ZIPCODE    UPDATE           STUDENT          07-JUN-21
+
+ROLLBACK;
+Rollback complete.

@@ -1,0 +1,17 @@
+USER es "STUDENT"
+
+SYSTIMESTAMP                                                                                                                      
+===========================================================================                                                       
+06/06/21 23:54:28.563000 -05:00                                                                                                   
+***************************************
+Alumno:Jesus Alberto Castillo Hernandez
+Asignatura: Base de datos
+Grupo:2CM12
+***************************************
+
+Disparador creado.
+
+Date: 06/06/2021 23:54                                                                                                            
+
+
+

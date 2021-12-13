@@ -1,0 +1,16 @@
+USER es "STUDENT"
+
+SYSTIMESTAMP                                                                                                                      
+===========================================================================                                                       
+06/06/21 17:14:25.005000 -05:00                                                                                                   
+***************************************
+Alumno:Jesus Alberto Castillo Hernandez 
+Asignatura: Base de datos
+Grupo:2CM12
+***************************************
+City: Santurce                                                                                                                    
+State: PR                                                                                                                         
+Zip: 00914                                                                                                                        
+
+Procedimiento PL/SQL terminado correctamente.
+

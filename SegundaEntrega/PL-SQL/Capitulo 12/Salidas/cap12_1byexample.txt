@@ -1,0 +1,24 @@
+USER es "STUDENT"
+
+SYSTIMESTAMP                                                                                                                      
+===========================================================================                                                       
+06/06/21 19:26:55.259000 -05:00                                                                                                   
+***************************************
+Alumno:Jesus Alberto Castillo Hernandez
+Asignatura: Base de datos
+Grupo:2CM12
+***************************************
+BEGIN
+*
+ERROR en línea 6:
+ORA-06550: línea 5, columna 23: 
+PL/SQL: ORA-00933: comando SQL no terminado correctamente 
+ORA-06550: línea 3, columna 1: 
+PL/SQL: SQL Statement ignored 
+ORA-06550: línea 11, columna 1: 
+PLS-00103: Se ha encontrado el símbolo "END" cuando se esperaba uno de los siguientes: 
+begin function pragma procedure subtype type <an identifier> 
+<a double-quoted delimited-identifier> current cursor delete 
+exists prior 
+
+

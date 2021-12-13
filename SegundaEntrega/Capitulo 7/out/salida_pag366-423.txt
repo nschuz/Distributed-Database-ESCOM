@@ -1,0 +1,635 @@
+SQL> rem Rischert, A(2004).Chapter 7. SQL: Subqueries
+SQL> rem IN Oracle SQL by Example(366-423),USA: prentice hall
+SQL> SELECT first_name, last_name
+  2    FROM student
+  3   WHERE registration_date =
+  4         (SELECT MIN(registration_date)
+  5            FROM student);
+
+FIRST_NAME                LAST_NAME                                             
+------------------------- -------------------------                             
+Fred                      Crocitto                                              
+J.                        Landry                                                
+Laetia                    Enison                                                
+Angel                     Moskowitz                                             
+Judith                    Olvsade                                               
+Catherine                 Mierzwa                                               
+Judy                      Sethi                                                 
+Larry                     Walter                                                
+
+8 rows selected.
+
+SQL> SELECT c.description, s.section_no, c.cost, s.capacity
+  2    FROM course c, section s
+  3   WHERE c.course_no = s.course_no
+  4     AND s.capacity <=
+  5         (SELECT AVG(capacity)
+  6            FROM section)
+  7     AND c.cost =
+  8         (SELECT MIN(cost)
+  9            FROM course);
+
+DESCRIPTION                                        SECTION_NO       COST        
+-------------------------------------------------- ---------- ----------        
+  CAPACITY                                                                      
+----------                                                                      
+Unix Tips and Techniques                                    2       1095        
+        15                                                                      
+                                                                                
+Unix Tips and Techniques                                    4       1095        
+        15                                                                      
+                                                                                
+Intro to Internet                                           1       1095        
+        12                                                                      
+                                                                                
+
+DESCRIPTION                                        SECTION_NO       COST        
+-------------------------------------------------- ---------- ----------        
+  CAPACITY                                                                      
+----------                                                                      
+Intro to Internet                                           2       1095        
+        15                                                                      
+                                                                                
+Intro to the Basic Language                                 1       1095        
+        10                                                                      
+                                                                                
+Intro to the Basic Language                                 2       1095        
+        15                                                                      
+                                                                                
+
+6 rows selected.
+
+SQL> 
+SQL> SELECT course_no, SUM(capacity)
+  2    FROM section
+  3   GROUP BY course_no
+  4  HAVING SUM(capacity) <
+  5         (SELECT AVG(capacity)
+  6            FROM section);
+
+ COURSE_NO SUM(CAPACITY)                                                        
+---------- -------------                                                        
+        10            15                                                        
+       144            15                                                        
+
+SQL> 
+SQL> SELECT course_no, description
+  2    FROM course
+  3   WHERE course_no IN
+  4         (SELECT course_no
+  5            FROM section
+  6           WHERE instructor_id IN
+  7                 (SELECT instructor_id
+  8                    FROM instructor
+  9                   WHERE last_name = 'Hanks'
+ 10                     AND first_name = 'Fernand'));
+
+ COURSE_NO DESCRIPTION                                                          
+---------- --------------------------------------------------                   
+        25 Intro to Programming                                                 
+       450 DB Programming in Java                                               
+       134 Advanced Unix Admin                                                  
+       120 Intro to Java Programming                                            
+       240 Intro to the Basic Language                                          
+       125 JDeveloper                                                           
+       140 Structured Analysis                                                  
+       146 Java for C/C++ Programmers                                           
+       122 Intermediate Java Programming                                        
+
+9 rows selected.
+
+SQL> 
+SQL> SELECT last_name, first_name
+  2    FROM student
+  3   WHERE student_id NOT IN
+  4         (SELECT student_id
+  5            FROM enrollment);
+
+LAST_NAME                 FIRST_NAME                                            
+------------------------- -------------------------                             
+Cadet                     Austin V.                                             
+M. Orent                  Frank                                                 
+Winnicki                  Yvonne                                                
+Madej                     Mike                                                  
+Valentine                 Paula                                                 
+Saluja                    Brian                                                 
+Lawson                    Frances                                               
+Dunkon                    Barry                                                 
+Archor                    Rita                                                  
+Milano                    George                                                
+Guarino                   Kardik                                                
+
+LAST_NAME                 FIRST_NAME                                            
+------------------------- -------------------------                             
+Larcia                    Preston                                               
+Callender                 Norman                                                
+Galik                     Salondra                                              
+Airall                    Carlos                                                
+Jimenes                   Joseph                                                
+Masser                    Henry                                                 
+Allende                   Maria                                                 
+Velie                     John                                                  
+Dermody                   Bernice                                               
+McHowell                  Daniel                                                
+Austin                    Cathy                                                 
+
+LAST_NAME                 FIRST_NAME                                            
+------------------------- -------------------------                             
+Eakheit                   George                                                
+Miller                    Mark                                                  
+Smagler                   Jeannette                                             
+Archer                    Oscar                                                 
+Ginestra                  Gilbert                                               
+Marten                    Price                                                 
+Puetrino                  Pat                                                   
+Padel                     Piotr                                                 
+Thorton                   Lynwood A.                                            
+Tabs                      John                                                  
+Zopf                      Mei-Wah                                               
+
+LAST_NAME                 FIRST_NAME                                            
+------------------------- -------------------------                             
+Mwangi                    Paula                                                 
+Ward                      Artie                                                 
+Annina                    Sarah                                                 
+Jackson                   Jane                                                  
+Gallagher                 Steven                                                
+Cross                     Preston                                               
+Towle                     Helga                                                 
+Nyziak                    Piang                                                 
+Eng                       David                                                 
+Porch                     Kevin                                                 
+De Armas                  Marianne                                              
+
+LAST_NAME                 FIRST_NAME                                            
+------------------------- -------------------------                             
+Schafer                   Ray                                                   
+Sprouse                   R.                                                    
+Carey                     Peter                                                 
+Buckberg                  Joane                                                 
+Daly                      Edith                                                 
+Miller                    Morty                                                 
+Mandel                    Margaret                                              
+Galik                     Alan                                                  
+Shah                      Debra                                                 
+Intal                     Paul                                                  
+Ittoop                    Romeo                                                 
+
+LAST_NAME                 FIRST_NAME                                            
+------------------------- -------------------------                             
+Ancean                    John                                                  
+Vargas                    Tom                                                   
+Avia                      Valerie                                               
+Galik                     Fermin                                                
+Kiraly                    Calvin                                                
+Rosenberg                 Rawan                                                 
+Sentell                   Yu                                                    
+Hagel                     Bridget                                               
+Leopta                    Howard                                                
+Mastandora                Kathleen                                              
+Smith                     Gabriel                                               
+
+LAST_NAME                 FIRST_NAME                                            
+------------------------- -------------------------                             
+Cheevens                  Raymond                                               
+Lin                       Kevin                                                 
+Tucker                    Lorraine                                              
+Mithane                   John                                                  
+Anglin                    Craig                                                 
+Draquez                   Zalman                                                
+Yeroushalmi               Reeva                                                 
+Millstein                 Leonard                                               
+Kasperovich               Jack                                                  
+McNeal                    Lorelei                                               
+Gallo                     William                                               
+
+LAST_NAME                 FIRST_NAME                                            
+------------------------- -------------------------                             
+Padron                    Craig                                                 
+Krot                      Joel                                                  
+Simmons                   Allan                                                 
+Miroff                    Michael                                               
+Cowie                     Roger                                                 
+Chirichella               Asian                                                 
+Allende                   Yvonne                                                
+MacDonald, Jr.            Sengita                                               
+Braun                     Paul                                                  
+Bathmanapan               Anna                                                  
+Leung                     Shirley                                               
+
+LAST_NAME                 FIRST_NAME                                            
+------------------------- -------------------------                             
+Greenberg                 V.                                                    
+Torres                    Rafael A.                                             
+Saliternan                V.                                                    
+Martin                    Melvin                                                
+Wetcel                    Vera                                                  
+Norman                    James E.                                              
+Lloyd                     Margaret                                              
+Abdou                     Jerry                                                 
+Lindeman                  Salewa                                                
+Sikinger                  Paul                                                  
+Kelly                     Robin                                                 
+
+LAST_NAME                 FIRST_NAME                                            
+------------------------- -------------------------                             
+Ellman                    Rosemary                                              
+Murray                    Shirley                                               
+Robles                    Brian                                                 
+Dewitt                    D.                                                    
+
+103 rows selected.
+
+SQL> 
+SQL> SELECT s.student_id, s.last_name, e.final_grade,
+  2         e.section_id
+  3    FROM enrollment e, student s
+  4   WHERE e.student_id = s.student_id
+  5     AND (e.final_grade, e.section_id) IN
+  6         (SELECT MAX(final_grade), section_id
+  7            FROM enrollment
+  8           GROUP BY section_id);
+
+STUDENT_ID LAST_NAME                 FINAL_GRADE SECTION_ID                     
+---------- ------------------------- ----------- ----------                     
+       102 Crocitto                           92         89                     
+
+SQL> 
+SQL> 
+SQL> SELECT first_name, last_name, student_id
+  2    FROM student s
+  3   WHERE EXISTS
+  4         (SELECT NULL
+  5            FROM enrollment
+  6           WHERE s.student_id = student_id
+  7           GROUP BY student_id
+  8          HAVING COUNT(*) >= 3);
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+Daniel                    Wicelinski                       124                  
+Salewa                    Zuckerberg                       184                  
+Yvonne                    Williams                         214                  
+Reynaldo                  Chatman                          215                  
+Janet                     Jung                             232                  
+Roger                     Snow                             238                  
+Evan                      Fielding                         250                  
+
+7 rows selected.
+
+SQL> 
+SQL> SELECT first_name, last_name, student_id
+  2    FROM student s
+  3   WHERE EXISTS
+  4         (SELECT NULL
+  5            FROM enrollment
+  6           WHERE s.student_id = student_id
+  7           GROUP BY student_id
+  8          HAVING COUNT(*) > 3);
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+Daniel                    Wicelinski                       124                  
+Yvonne                    Williams                         214                  
+
+SQL> 
+SQL> SELECT first_name, last_name, s.student_id
+  2    FROM enrollment e, student s
+  3   WHERE e.student_id = s.student_id
+  4   GROUP BY first_name, last_name, s.student_id
+  5  HAVING COUNT(*) >= 3;
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+Yvonne                    Williams                         214                  
+Janet                     Jung                             232                  
+Reynaldo                  Chatman                          215                  
+Daniel                    Wicelinski                       124                  
+Evan                      Fielding                         250                  
+Roger                     Snow                             238                  
+Salewa                    Zuckerberg                       184                  
+
+7 rows selected.
+
+SQL> 
+SQL> SELECT first_name, last_name, s.student_id
+  2    FROM enrollment e, student s
+  3   WHERE e.student_id = s.student_id
+  4   GROUP BY first_name, last_name, s.student_id
+  5  HAVING COUNT(*) < 3;
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+Larry                     Walter                           109                  
+Pierre                    Radicola                         123                  
+Jeff                      Runyan                           128                  
+Omaira                    Grant                            129                  
+Angelo                    Garshman                         139                  
+Derrick                   Baltazar                         140                  
+Sylvia                    Perrin                           164                  
+Peter                     Daly                             165                  
+May                       Jodoin                           166                  
+Frantz                    McLean                           169                  
+P.                        Balterzar                        170                  
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+E.A.                      Torres                           180                  
+Edwin                     Allende                          198                  
+Michael                   Lefbowitz                        201                  
+Alfred                    Hutheesing                       205                  
+Lloyd                     Kellam                           209                  
+Joel                      Brendler                         234                  
+Gerry                     Tripp                            236                  
+Donna                     Walston                          262                  
+Ronald                    Tangaribuan                      268                  
+Jose                      Benitez                          271                  
+Thomas E.                 La Blank                         278                  
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+J.                        Landry                           103                  
+Peggy                     Noviello                         111                  
+Winsome                   Laporte                          114                  
+Hiedi                     Lopez                            118                  
+Gary                      Aung                             127                  
+Angela                    Torres                           134                  
+John                      Smith                            138                  
+D.                        Orent                            148                  
+Judith                    Prochaska                        149                  
+Dawn                      Dennis                           154                  
+Shirley                   Jameson                          157                  
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+Roy                       Limate                           158                  
+Ricardo                   Kurtz                            178                  
+Simon                     Ramesh                           179                  
+Jeffrey                   Delbrun                          182                  
+Regina                    Bose                             195                  
+Mary                      Axch                             202                  
+David                     Thares                           210                  
+Sheradha                  Malone                           221                  
+M.                        Diokno                           224                  
+Mohamed                   Valentine                        228                  
+Adrienne                  Lopez                            229                  
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+Daniel                    Ordes                            242                  
+Tamara                    Zapulla                          248                  
+Catherine                 Frangopoulos                     251                  
+Suzanne M.                Abid                             257                  
+Charles                   Caro                             270                  
+Catherine                 Mierzwa                          107                  
+Lula                      Oates                            130                  
+Robert                    Boyd                             141                  
+Gerard                    Biers                            143                  
+Scott                     Grant                            156                  
+Thomas                    Edwards                          159                  
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+Denise                    Brownstein                       171                  
+Maria                     Arias                            172                  
+Michael                   Brown                            174                  
+O.                        Garnes                           187                  
+Arun                      Griffen                          204                  
+Barbara                   Robichaud                        212                  
+Eric                      Da Silva                         218                  
+Michael                   Carcia                           235                  
+Meryl                     Owens                            246                  
+Lorraine                  Harty                            264                  
+Sharon                    Thompson                         269                  
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+Maria                     Martin                           110                  
+Ralph                     Alexander                        120                  
+Monica                    Waldman                          142                  
+Judy                      Cahouet                          147                  
+Mrudula                   Philpotts                        153                  
+Jim                       Joas                             167                  
+Oscar                     McGill                           173                  
+Anthony                   Bullock                          181                  
+Phil                      Gilloon                          188                  
+Victor                    Meshaj                           196                  
+A.                        Tucker                           208                  
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+Robert                    Segall                           220                  
+Bessie                    Heedles                          227                  
+Z.A.                      Scrittorale                      240                  
+Joseph                    Yourish                          241                  
+Bharat                    Roberts                          243                  
+Sarah                     Wilson                           244                  
+Frank                     Bunnell                          247                  
+Walter                    Boremmann                        253                  
+Suzanna                   Velasco                          258                  
+Kate                      Page                             266                  
+Kevin                     Porch                            272                  
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+Hedy                      Naso                             273                  
+Florence                  Valamas                          276                  
+George                    Korka                            279                  
+Laetia                    Enison                           104                  
+Thomas                    Thomas                           112                  
+Michelle                  Masser                           135                  
+Hazel                     Lasseter                         136                  
+David                     Essner                           144                  
+Paul                      Lefkowitz                        145                  
+Arlyne                    Sheppard                         151                  
+Thomas                    Edwards                          152                  
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+John T.                   Beitler                          160                  
+Eilene                    Grant                            161                  
+Alan                      Affinito                         190                  
+George                    Kocka                            230                  
+Kathleen                  Mulroy                           233                  
+Irv                       Dalvi                            245                  
+Jean                      Griffith                         260                  
+Jonathan                  Jaele                            282                  
+Judith                    Olvsade                          106                  
+Judy                      Sethi                            108                  
+N                         Kuehn                            117                  
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+Mardig                    Abdou                            119                  
+Beth                      Satterfield                      176                  
+Deborah                   Reyes                            189                  
+Steven                    M. Orent                         191                  
+Verona                    Grant                            194                  
+J.                        Dalvi                            197                  
+Gene                      Bresser, HR Rep.                 200                  
+Angel                     Cook                             203                  
+Jenny                     Goldsmith                        211                  
+Fred                      Crocitto                         102                  
+Angel                     Moskowitz                        105                  
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+Anil                      Kulina                           113                  
+James                     Miller                           137                  
+Joseph                    German                           146                  
+Genny                     Andrew                           162                  
+Debra                     Boyce                            175                  
+Christine                 Sheppard                         186                  
+Frank                     Viotty                           192                  
+Bernadette                Montanez                         207                  
+Jeffrey                   Citron                           217                  
+Edgar                     Moffat                           225                  
+Melvina                   Chamnonkool                      254                  
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+Lorrane                   Velasco                          256                  
+Radharam                  King                             263                  
+Evelyn                    Liggons                          277                  
+Bill                      Engongoro                        280                  
+Virginia                  Ocampo                           281                  
+Sean                      Pineda                           121                  
+Julita                    Lippen                           122                  
+James                     Reed                             133                  
+Regina                    Gates                            150                  
+Nicole                    Gillen                           163                  
+Sally                     Naso                             168                  
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+Dennis                    Mehta                            185                  
+Al                        Jamerncy                         193                  
+J.                        Segall                           199                  
+Freedon                   annunziato                       206                  
+Madhav                    Dusenberry                       216                  
+Frank                     Pace                             223                  
+Rommel                    Frost                            237                  
+Nana                      Barogh                           252                  
+George                    Merriman                         259                  
+Vinnie                    Moon                             261                  
+Adele                     Rothstein                        265                  
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+Julius                    Kwong                            267                  
+John                      De Simone                        274                  
+George                    Ross                             275                  
+Benita                    Perkins                          283                  
+
+158 rows selected.
+
+SQL> 
+SQL> SELECT first_name, last_name, student_id
+  2    FROM student
+  3   WHERE student_id IN
+  4         (SELECT student_id
+  5            FROM enrollment
+  6           GROUP BY student_id
+  7          HAVING COUNT(*) >= 3);
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+Evan                      Fielding                         250                  
+Salewa                    Zuckerberg                       184                  
+Reynaldo                  Chatman                          215                  
+Janet                     Jung                             232                  
+Yvonne                    Williams                         214                  
+Roger                     Snow                             238                  
+Daniel                    Wicelinski                       124                  
+
+7 rows selected.
+
+SQL> 
+SQL> SELECT first_name, last_name, student_id
+  2    FROM student
+  3   WHERE student_id IN
+  4         (SELECT student_id
+  5            FROM enrollment
+  6           GROUP BY student_id
+  7          HAVING COUNT(*) = 3);
+
+FIRST_NAME                LAST_NAME                 STUDENT_ID                  
+------------------------- ------------------------- ----------                  
+Evan                      Fielding                         250                  
+Salewa                    Zuckerberg                       184                  
+Reynaldo                  Chatman                          215                  
+Janet                     Jung                             232                  
+Roger                     Snow                             238                  
+
+SQL> 
+SQL> SELECT g.student_id, section_id, g.numeric_grade,
+  2         gr.average
+  3    FROM grade g JOIN
+  4         (SELECT section_id, AVG(numeric_grade) average
+  5            FROM grade
+  6           WHERE section_id IN (94, 106)
+  7             AND grade_type_code = 'FI'
+  8           GROUP BY section_id) gr
+  9   USING (section_id)
+ 10   WHERE g.grade_type_code = 'FI'
+ 11     AND g.numeric_grade > gr.average;
+
+STUDENT_ID SECTION_ID NUMERIC_GRADE    AVERAGE                                  
+---------- ---------- ------------- ----------                                  
+       140         94            85       84.5                                  
+       145        106            91         89                                  
+       130        106            90         89                                  
+       200        106            92         89                                  
+
+SQL> 
+SQL> SELECT a.course_no, total_capacity, total_students,
+  2         ROUND(100/total_capacity*total_students, 2)
+  3         "Filled Percentage"
+  4    FROM (SELECT COUNT(*) total_students, s.course_no
+  5            FROM enrollment e, section s
+  6           WHERE e.section_id = s.section_id
+  7           GROUP BY s.course_no) a,
+  8         (SELECT SUM(capacity) total_capacity, course_no
+  9            FROM section
+ 10           GROUP BY course_no) b
+ 11   WHERE b.course_no = a.course_no
+ 12   ORDER BY "Filled Percentage" DESC;
+
+ COURSE_NO TOTAL_CAPACITY TOTAL_STUDENTS Filled Percentage                      
+---------- -------------- -------------- -----------------                      
+       240             25             13                52                      
+       230             27             14             51.85                      
+       140             65             15             23.08                      
+       122            105             24             22.86                      
+        25            205             45             21.95                      
+       147             25              5                20                      
+       120            130             23             17.69                      
+       310             25              4                16                      
+       350             65              9             13.85                      
+       100            105             13             12.38                      
+       330             25              3                12                      
+
+ COURSE_NO TOTAL_CAPACITY TOTAL_STUDENTS Filled Percentage                      
+---------- -------------- -------------- -----------------                      
+        20             80              9             11.25                      
+       142             65              7             10.77                      
+       130             80              8                10                      
+       124             80              8                10                      
+       420             25              2                 8                      
+       125            105              8              7.62                      
+       146             40              3               7.5                      
+        10             15              1              6.67                      
+       135             80              4                 5                      
+       145             50              2                 4                      
+       132             50              2                 4                      
+
+ COURSE_NO TOTAL_CAPACITY TOTAL_STUDENTS Filled Percentage                      
+---------- -------------- -------------- -----------------                      
+       450             25              1                 4                      
+       204             25              1                 4                      
+       134             65              2              3.08                      
+
+25 rows selected.
+
+SQL> 
+SQL> spool off

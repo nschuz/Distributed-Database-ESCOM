@@ -1,0 +1,79 @@
+USER es "STUDENT"
+
+SYSTIMESTAMP                                                                                                                      
+===========================================================================                                                       
+06/06/21 20:42:22.067000 -05:00                                                                                                   
+***************************************
+Alumno:Jesus Alberto Castillo Hernandez
+Asignatura: Base de datos
+Grupo:2CM12
+***************************************
+
+                                                                                                                                 
+Shirley Jameson                                                                                                                   
+Grades for course :Intro to Java Programming                                                                                      
+77.00 Final                                                                                                                       
+82.75 Homework                                                                                                                    
+92.00 Midterm                                                                                                                     
+91.50 Quiz                                                                                                                        
+77.00 Participation                                                                                                               
+
+                                                                                                                                 
+May Jodoin                                                                                                                        
+Grades for course :Intro to Programming                                                                                           
+86.42 Participation                                                                                                               
+99.00 Project                                                                                                                     
+
+                                                                                                                                 
+Jim Joas                                                                                                                          
+Grades for course :Intro to Programming                                                                                           
+83.25 Participation                                                                                                               
+90.00 Project                                                                                                                     
+
+                                                                                                                                 
+Janet Jung                                                                                                                        
+Grades for course :Intro to Programming                                                                                           
+76.00 Final                                                                                                                       
+85.00 Midterm                                                                                                                     
+Grades for course :Intro to Java Programming                                                                                      
+91.00 Final                                                                                                                       
+86.75 Homework                                                                                                                    
+76.00 Midterm                                                                                                                     
+80.50 Quiz                                                                                                                        
+91.00 Participation                                                                                                               
+Grades for course :Intro to Java Programming                                                                                      
+87.92 Participation                                                                                                               
+83.00 Project                                                                                                                     
+
+                                                                                                                                 
+Jonathan Jaele                                                                                                                    
+Grades for course :Intro to Internet                                                                                              
+84.00 Final                                                                                                                       
+80.50 Homework                                                                                                                    
+77.00 Midterm                                                                                                                     
+90.50 Quiz                                                                                                                        
+90.00 Participation                                                                                                               
+Grades for course :Intro to the Basic Language                                                                                    
+77.00 Final                                                                                                                       
+83.50 Homework                                                                                                                    
+90.00 Midterm                                                                                                                     
+83.50 Quiz                                                                                                                        
+83.00 Participation                                                                                                               
+
+                                                                                                                                 
+Joseph Jimenes                                                                                                                    
+
+                                                                                                                                 
+Jane Jackson                                                                                                                      
+
+                                                                                                                                 
+Al Jamerncy                                                                                                                       
+Grades for course :Project Management                                                                                             
+84.00 Final                                                                                                                       
+80.50 Homework                                                                                                                    
+77.00 Midterm                                                                                                                     
+90.50 Quiz                                                                                                                        
+90.00 Participation                                                                                                               
+
+Procedimiento PL/SQL terminado correctamente.
+

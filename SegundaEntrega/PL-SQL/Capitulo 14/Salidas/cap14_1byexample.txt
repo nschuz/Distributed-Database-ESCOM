@@ -1,0 +1,25 @@
+USER es "STUDENT"
+
+SYSTIMESTAMP                                                                                                                      
+===========================================================================                                                       
+06/06/21 22:39:35.985000 -05:00                                                                                                   
+***************************************
+Alumno:Jesus Alberto Castillo Hernandez
+Asignatura: Base de datos
+Grupo:2CM12
+***************************************
+
+Advertencia: Disparador creado con errores de compilación.
+
+
+Paquete creado.
+
+
+Advertencia: Disparador creado con errores de compilación.
+
+
+Disparador creado.
+
+ 
+
+

@@ -1,0 +1,36 @@
+USER es "STUDENT"
+
+SYSTIMESTAMP                                                                                                                      
+===========================================================================                                                       
+06/06/21 17:30:11.440000 -05:00                                                                                                   
+***************************************
+Alumno:Jesus Alberto Castillo Hernandez 
+Asignatura: Base de datos
+Grupo:2CM12
+***************************************
+10 DP Overview                                                                                                                    
+	Section: 2 has an enrollment of: 1                                                                                               
+20 Intro to Computers                                                                                                             
+	Section: 2 has an enrollment of: 3                                                                                               
+	Section: 4 has an enrollment of: 2                                                                                               
+	Section: 7 has an enrollment of: 2                                                                                               
+	Section: 8 has an enrollment of: 2                                                                                               
+25 Intro to Programming                                                                                                           
+	Section: 1 has an enrollment of: 5                                                                                               
+	Section: 2 has an enrollment of: 6                                                                                               
+	Section: 3 has an enrollment of: 7                                                                                               
+	Section: 4 has an enrollment of: 5                                                                                               
+	Section: 5 has an enrollment of: 12                                                                                              
+	Section: 6 has an enrollment of: 4                                                                                               
+	Section: 7 has an enrollment of: 2                                                                                               
+	Section: 8 has an enrollment of: 4                                                                                               
+80 Structured Programming Techniques                                                                                              
+100 Hands-On Windows                                                                                                              
+	Section: 1 has an enrollment of: 6                                                                                               
+	Section: 2 has an enrollment of: 2                                                                                               
+	Section: 3 has an enrollment of: 2                                                                                               
+	Section: 4 has an enrollment of: 2                                                                                               
+	Section: 5 has an enrollment of: 1                                                                                               
+
+Procedimiento PL/SQL terminado correctamente.
+
