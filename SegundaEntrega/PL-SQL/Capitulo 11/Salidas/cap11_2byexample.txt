@@ -3,11 +3,6 @@ USER es "STUDENT"
 SYSTIMESTAMP                                                                                                                      
 ===========================================================================                                                       
 06/06/21 17:18:15.071000 -05:00                                                                                                   
-***************************************
-Alumno:Jesus Alberto Castillo Hernandez 
-Asignatura: Base de datos
-Grupo:2CM12
-***************************************
 Student name: Fred Crocitto                                                                                                       
 Student name: J. Landry                                                                                                           
 Student name: Laetia Enison                                                                                                       

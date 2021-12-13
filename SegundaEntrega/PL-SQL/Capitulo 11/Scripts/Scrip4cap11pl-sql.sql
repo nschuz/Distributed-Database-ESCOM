@@ -12,12 +12,6 @@ SELECT systimestamp from dual;
 set feedback on
 
 
-prompt ***************************************
-prompt Alumno:Jesus Alberto Castillo Hernandez
-prompt Asignatura: Base de datos
-prompt Grupo:2CM12
-prompt ***************************************
-
 REM TRY IT YOURSELF
 REM Write a nested cursor in which the parent cursor SELECTs information about each section of a
 REM course. The child cursor counts the enrollment. The only output is one line for each course, with

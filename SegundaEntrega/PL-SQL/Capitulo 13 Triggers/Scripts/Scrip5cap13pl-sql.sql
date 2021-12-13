@@ -6,19 +6,6 @@ set linesize 130
 set feedback on
 set underline =
 
-
-set feedback off
-SHOW user
-SELECT systimestamp from dual;
-set feedback on
-
-
-prompt ***************************************
-prompt Alumno:Jesus Alberto Castillo Hernandez
-prompt Asignatura: Base de datos
-prompt Grupo:2CM12
-prompt ***************************************
-
 REM TRY IT YOURSELF
 REM Create or modify a trigger on the SECTION table that fires before an UPDATE statement. Make sure
 REM that the trigger validates incoming values so that there are no constraint violation errors.

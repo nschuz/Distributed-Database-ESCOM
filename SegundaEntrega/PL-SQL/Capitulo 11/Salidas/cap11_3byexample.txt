@@ -3,11 +3,6 @@ USER es "STUDENT"
 SYSTIMESTAMP                                                                                                                      
 ===========================================================================                                                       
 06/06/21 17:22:17.158000 -05:00                                                                                                   
-***************************************
-Alumno:Jesus Alberto Castillo Hernandez 
-Asignatura: Base de datos
-Grupo:2CM12
-***************************************
 Just FETCHED row 1 Student ID: 102                                                                                                
 Just FETCHED row 2 Student ID: 103                                                                                                
 Just FETCHED row 3 Student ID: 104                                                                                                

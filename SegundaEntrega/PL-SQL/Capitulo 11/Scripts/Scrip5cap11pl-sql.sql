@@ -11,13 +11,6 @@ SHOW user
 SELECT systimestamp from dual;
 set feedback on
 
-
-prompt ***************************************
-prompt Alumno:Jesus Alberto Castillo Hernandez
-prompt Asignatura: Base de datos
-prompt Grupo:2CM12
-prompt ***************************************
-
 REM TRY IT YOURSELF
 REM Write an anonymous PL/SQL block that finds all the courses that have at least one section that is
 REM at its maximum enrollment. If no courses meet that criterion, pick two courses and create that

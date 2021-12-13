@@ -13,12 +13,6 @@ SELECT systimestamp from dual;
 set feedback on
 
 
-prompt ***************************************
-prompt Alumno:Jesus Alberto Castillo Hernandez
-prompt Asignatura: Base de datos
-prompt Grupo:2CM12
-prompt ***************************************
-
 REM Try it Yourself EXERCISES 
 REM Create a compound trigger on the INSTRUCTOR table that fires on the INSERT and UPDATE statements
 REM The trigger should not allow an insert or update on the INSTRUCTOR table during off hours.

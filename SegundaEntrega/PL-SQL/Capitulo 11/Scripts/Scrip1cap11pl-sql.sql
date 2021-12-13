@@ -13,12 +13,6 @@ SELECT systimestamp from dual;
 set feedback on
 
 
-prompt ***************************************
-prompt Alumno:Jesus Alberto Castillo Hernandez
-prompt Asignatura: Base de datos
-prompt Grupo:2CM12
-prompt ***************************************
-
 REM LAB 11.1 EXERCISES Make Use of Record Types
 REM Here is an example of a record type in an anonymous PL/SQL block:
 

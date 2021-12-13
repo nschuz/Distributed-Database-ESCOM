@@ -12,13 +12,6 @@ SHOW user
 SELECT systimestamp from dual;
 set feedback on
 
-
-prompt ***************************************
-prompt Alumno:Jesus Alberto Castillo Hernandez
-prompt Asignatura: Base de datos
-prompt Grupo:2CM12
-prompt ***************************************
-
 REM LAB 13.2.2 Exercises Use INSTEAD OF Triggers
 REM In this exercise, you create a view STUDENT_ADDRESS and an INSTEAD OF trigger that fires instead of an
 REM INSERT statement issued against the view.

@@ -12,13 +12,6 @@ SHOW user
 SELECT systimestamp from dual;
 set feedback on
 
-
-prompt ***************************************
-prompt Alumno:Jesus Alberto Castillo Hernandez
-prompt Asignatura: Base de datos
-prompt Grupo:2CM12
-prompt ***************************************
-
 REM TRY IT YOURSELF
 REM Create or modify a trigger on the ENROLLMENT table that fires before an INSERT statement. Make
 REM sure that all columns that have NOT NULL and foreign key constraints defined on them are populated

@@ -12,12 +12,6 @@ SELECT systimestamp from dual;
 set feedback on
 
 
-prompt ***************************************
-prompt Alumno:Jesus Alberto Castillo Hernandez
-prompt Asignatura: Base de datos
-prompt Grupo:2CM12
-prompt ***************************************
-
 REM LAB 12.2 Exercises For UPDATE and WHERE CURRENT Cursors 
 REM The phone numbers of students living in Brooklyn are being updated to change the
 REM area code to 718. The cursor declaration only locks the phone column of the student table. The

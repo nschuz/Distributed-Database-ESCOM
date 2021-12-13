@@ -12,12 +12,6 @@ SELECT systimestamp from dual;
 set feedback on
 
 
-prompt ***************************************
-prompt Alumno:Jesus Alberto Castillo Hernandez
-prompt Asignatura: Base de datos
-prompt Grupo:2CM12
-prompt ***************************************
-
 REM LAB 13.2.1 Exercises Use Row and Statement Triggers
 REM In this exercise, you create a trigger that fires before an INSERT statement is issued against the COURSE
 REM table

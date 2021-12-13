@@ -13,12 +13,6 @@ SELECT systimestamp from dual;
 set feedback on
 
 
-prompt ***************************************
-prompt Alumno:Jesus Alberto Castillo Hernandez
-prompt Asignatura: Base de datos
-prompt Grupo:2CM12
-prompt ***************************************
-
 REM Try it Yourself EXERCISES 
 REM Create a compound trigger on the ZIPCODE table that fires on the INSERT and UPDATE statements
 REM The trigger should populate the CREATED_BY, CREATED_DATE, MODIFIED_BY, and MODIFIED_DATE

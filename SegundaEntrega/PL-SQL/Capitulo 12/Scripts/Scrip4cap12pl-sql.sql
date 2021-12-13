@@ -12,12 +12,6 @@ SELECT systimestamp from dual;
 set feedback on
 
 
-prompt ***************************************
-prompt Alumno:Jesus Alberto Castillo Hernandez
-prompt Asignatura: Base de datos
-prompt Grupo:2CM12
-prompt ***************************************
-
 REM LAB 12.2 Exercises For UPDATE and WHERE CURRENT Cursors 
 REM The following example shows how to update the cost of all courses that cost less than $2,500
 REM It increments them by 10.

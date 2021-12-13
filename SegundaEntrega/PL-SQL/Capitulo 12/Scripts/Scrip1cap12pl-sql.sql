@@ -12,13 +12,6 @@ SHOW user
 SELECT systimestamp from dual;
 set feedback on
 
-
-prompt ***************************************
-prompt Alumno:Jesus Alberto Castillo Hernandez
-prompt Asignatura: Base de datos
-prompt Grupo:2CM12
-prompt ***************************************
-
 REM LAB 12.1 Exercises Use Parameters in a Cursor
 REM Complete the code for the parameter cursor that was begun in the preceding example. Include
 REM a DBMS_OUTPUT line that displays the zip code, city, and state. This is identical to the process

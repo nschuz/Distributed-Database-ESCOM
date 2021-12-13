@@ -13,12 +13,6 @@ SELECT systimestamp from dual;
 set feedback on
 
 
-prompt ***************************************
-prompt Alumno:Jesus Alberto Castillo Hernandez
-prompt Asignatura: Base de datos
-prompt Grupo:2CM12
-prompt ***************************************
-
 REM LAB 14.1 Exercises
 REM In this exercise, you modify a trigger that causes a mutating table error when an INSERT statement is
 REM issued against the ENROLLMENT table
